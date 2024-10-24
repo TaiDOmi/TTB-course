@@ -1,8 +1,6 @@
 # Tämä on testi
 
-# One hash makes heading one 
-
-Regular text is just written. 
+Here is simple regular text.
 
 Empty line adds a paragraph break. 
 
