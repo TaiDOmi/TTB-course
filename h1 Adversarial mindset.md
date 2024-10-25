@@ -6,8 +6,11 @@
   - Long term hacking campaigns with advanced tools and methods that can break through the typical computer network security means.
 - 'Kill chain' is a defence model to protect from attackers by understanding and breaking an attack down to phases.
     - The idea is to recognize patterns in attacks and improve defenses against attacks and improve the effectiveness of security investments.
-    - The method is called "Intelligence-driven computer network defense (CND)" 
-  
+    - Cut one chain (phase) to mitigate the attack
+    - The method is called "Intelligence-driven computer network defense (CND)"
+      
+- Conventional security methods fail because of assumptions that action should be taken only after security breach has happened and that the problem that caused the breach is a fixable flaw.
+- 
 
 **Darknet Diaries**
 
