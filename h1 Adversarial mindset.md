@@ -28,7 +28,12 @@
   - Installation (Installation of a trojan or backdoor allows access to victim's system and environment)
   - Command and Control (a channel to an external server is established to control system manually)
   - Action on Objectives (Attackers can do their things eg. data theft, alter data or infiltrate further the network.)
-  - 
+
+- Six defense actions from Department of defense (Dod) - detect, deny, disrupt, degrade, deceive, destroy to be used with the chain
+  - Defenders can can detect and mitigate even new vulnerabilities by investigating repeated indicators (patterns in tools or infra used in other phases of the attack etc.)
+  - Resilience can be measured (eg. detection and mitigation rates)
+ 
+  
 
 **Darknet Diaries**
 
