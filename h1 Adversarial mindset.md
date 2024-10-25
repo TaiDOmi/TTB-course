@@ -2,7 +2,7 @@
 
 ## x) Summaries
 **Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains (Hutchins et al 2011)**
-- 
+- New class threats "Advanced Persistent Threat" (APT)  
 
 **Darknet Diaries**
 
