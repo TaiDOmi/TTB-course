@@ -2,7 +2,12 @@
 
 ## x) Summaries
 **Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains (Hutchins et al 2011)**
-- New class threats "Advanced Persistent Threat" (APT)  
+- New class threats "Advanced Persistent Threat" (APT): Attackers are better resourced, organized and more skilled than before.
+  - Long term hacking campaigns with advanced tools and methods that can break through the typical computer network security means.
+- 'Kill chain' is a defence model to protect from attackers by understanding and breaking an attack down to phases.
+    - The idea is to recognize patterns in attacks and improve defenses against attacks and improve the effectiveness of security investments.
+    - The method is called "Intelligence-driven computer network defense (CND)" 
+  
 
 **Darknet Diaries**
 
