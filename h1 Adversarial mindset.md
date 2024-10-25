@@ -19,6 +19,15 @@
 - Analysts can use these identificators to identify uspicious activity and refine their tools.
   - Analyzing activity reveals more indicators (indicator lifecycle)
   - Indicators must be managed and validated to ensure that they are relevant to the monitored threats.
+
+- Kill chain (Intrusion stages from planning to executing objectives within a targeted system)
+  - Reconnassaince (Identify and choose targets)
+  - Weaponization (the automated weapon / payload is created)
+  - Delivery (The payload is sent to the targeted system)
+  - Exploitation (The intruders code is triggered in the victim host)
+  - Installation (Installation of a trojan or backdoor allows access to victim's system and environment)
+  - Command and Control (a channel to an external server is established to control system manually)
+  - Action on Objectives (Attackers can do their things eg. data theft, alter data or infiltrate further the network.)
   - 
 
 **Darknet Diaries**
