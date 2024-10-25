@@ -4,13 +4,22 @@
 **Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains (Hutchins et al 2011)**
 - New class threats "Advanced Persistent Threat" (APT): Attackers are better resourced, organized and more skilled than before.
   - Long term hacking campaigns with advanced tools and methods that can break through the typical computer network security means.
-- 'Kill chain' is a defence model to protect from attackers by understanding and breaking an attack down to phases.
-    - The idea is to recognize patterns in attacks and improve defenses against attacks and improve the effectiveness of security investments.
-    - Cut one chain (phase) to mitigate the attack
-    - The method is called "Intelligence-driven computer network defense (CND)"
-      
+  - Attackers learn and adapt intrusions based on what works or fails with each attempt. 
 - Conventional security methods fail because of assumptions that action should be taken only after security breach has happened and that the problem that caused the breach is a fixable flaw.
-- 
+  
+- 'Kill chain' is a defence model to protect from attackers by understanding and breaking an attack down to phases.
+  - The idea is to recognize patterns in attacks and improve defenses against attacks and improve the effectiveness of security investments.
+  - Cut one chain (phase) to mitigate the attack
+  - The method is called "Intelligence-driven computer network defense (CND)"
+
+- Indicator: information that describes an intrusion
+  - Atomic indicators: Cannot be broken doqn further (eg. IP, email, identifiers)
+  - Computed indicators: Derived data related to an incident (regular expressions, hash data)
+  - Behavioral indicators: Combinations of atomic and computed indicators (often with specific patterns). 
+- Analysts can use these identificators to identify uspicious activity and refine their tools.
+  - Analyzing activity reveals more indicators (indicator lifecycle)
+  - Indicators must be managed and validated to ensure that they are relevant to the monitored threats.
+  - 
 
 **Darknet Diaries**
 
