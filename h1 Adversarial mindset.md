@@ -33,8 +33,6 @@
   - Defenders can can detect and mitigate even new vulnerabilities by investigating repeated indicators (patterns in tools or infra used in other phases of the attack etc.)
   - Resilience can be measured (eg. detection and mitigation rates)
  
-  
-
 **Darknet Diaries**
 EP 136: Team Xecuter
 2 stories 
@@ -46,7 +44,7 @@ An attempt to publish a game on Steam without the process
 - tricked the process submitting answer that the game was published in a dorp-down list that asked the stage that game was in. People were able to download the game for a whole day before Steam noticed and took the game down.
 
 Story 2
-A website admin (Gary) for a website forum talking about hacking video game consoles got to jail for 40 moths and owes 10 million to Nintendo + 4,5 million in restitution
+A website admin (Gary) for a website forum talking about hacking video game consoles got to jail for 40 months and owes $10 million to Nintendo + $4,5 million in restitution
 - They did not sell any pirated software on the forum but they adverted mod devices for example Playstation and Nintendo mini consoles and a device to hack Nintendo Switch console and had a link to the page you could buy them from.
 - The person that (MAXiMiLiEN) had hired Gary to moderate site was selling these mod devices
    - He charged 25 $ for pirated switch hacking software 
@@ -54,15 +52,24 @@ A website admin (Gary) for a website forum talking about hacking video game cons
  - The moderator (Gary) got arrested while living in Dominican Republic during Covid lock (reason is not clear)
  - He was then sent to Canada but the plane landed in New Jersey for refuel and people's passports were scanned
    - Gary had a lawsuit from Nintendo and he was arrested
+   - The lawsuit was for intellectual property infringement
+   - Nintendo calculated that a person with a modded system buys 2.41 less games and they multiplied the estimated amount of licences 500.000 with the value of a game $59.99 = $72 million which was rounded to $10 million which is the max sum for a civic lawsuits in Washington state
+   - Also the judge wanted to make him a warning example and sentenced him to jail for 40 months + that $14,5 million
 - The guy who was selling the chips is living a luxurious life in France (FBI lookng for him) but cannot do anything when he stays in France.
 
-
 **ATT&CK Enterprise Matrix**
-Explain "tactic", "technique" and "procedure" in context of ATT&CK, and give an example of each. 
+MITRE ATT&CK is a collection of tactics, techniques and procedures that APTs use against enterprise networks
 Definitions and examples: 
-Tactic
-Technique
-Procedure
+Tactic = Tactics explain why an attacker uses certain methods. 
+  - Eg. To get and maintain an access to a system (Persistence).
+  - Eg. To steal or transfer data from victim's system (Exfiltration).
+Technique = Explains how attackers achieve their goal.
+  - Eg. Run scheduled code to stay persistent in a system or moving data (Scheduled task)
+  - Eg. Prepare data for exfiltration by staging the collected data in a specific location (Data staging)
+Procedure = The real-world implementation used by attackers
+  - Eg. Schedule a malicious cron job (a scheduled automated task) to maintain access in the system.
+  - Eg. Use a PowerShell script to stage and transfer data to a Google Drive or other cloud account they control. 
+
 
 ## a) How would you compare Cyber Kill Chain and ATT&CK Enterprise matrix? Who do you think could benefit from these models?
 
