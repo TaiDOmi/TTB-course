@@ -80,7 +80,9 @@ Procedure = The real-world implementation used by attackers
 
 
 ## a) How would you compare Cyber Kill Chain and ATT&CK Enterprise matrix? Who do you think could benefit from these models?
+
 Sources: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html, https://attack.mitre.org/resources/faq/
+
 Cyber Kill Chain and ATT&CK Enterprise matrix are both cyberattack frameworks which complement each other.
 - Cyber Kill Chain focuses on ordered high-level stages of an attack to understand its structure to prevent and stop them as early as possible.
 - For organizations to understand and prevent, detect and stop attacks early.
@@ -89,5 +91,15 @@ Cyber Kill Chain and ATT&CK Enterprise matrix are both cyberattack frameworks wh
 - For roles that are deeply focused on security (security teams, threat hunters, security engineers etc.)
 
 ## b) Pick a security incident and learn about it. Write briefly about it. Point out the concepts of threat actor, exploit, vulnerability and (business) impact. (You can find writeups about security incidents from Darknet Diaries and Krebs)
+Crooks Steal Phone, SMS Records for Nearly All AT&T Customers
+
+Source: [https://krebsonsecurity.com/category/data-breaches/](https://krebsonsecurity.com/2024/07/hackers-steal-phone-sms-records-for-nearly-all-att-customers/)
+
+- Attackers got an access to a third party cloud platform and got access and downloaded customer call and text interactions between 5.1.-10.31.2022 and 2.1.2023.
+-   
+
+
+
+
 
 ## c) Install Debian on Virtualbox. Report your work, including the environment (including host OS, the real physical computer used), the steps you took and their results.
