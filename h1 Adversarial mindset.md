@@ -121,8 +121,27 @@ Installation steps:
 
 2. Create a New Virtual Machine
 - https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
-- Click Windows hosts to start the download (installer file: VirtualBox-7.1.4-165100-Win)
-- 
+- Clicked Windows hosts to start the download (installer file: VirtualBox-7.1.4-165100-Win)
+- Ran installer and selected yes to all with default values (Note: Unlike in instructions (https://terokarvinen.com/2021/install-debian-on-virtualbox/), there was no Expert install option during the installation)
+- Ran VB and selected Expert Mode from Tools
+- Clicked New from the tool bar
+- Name and Operating System
+  - Name: DebianTeroKarvinenCom
+  - Folder: Default value in C:\Users\XXX\VirtualBox VMs
+  - ISO Image: C:\Users\XXX\Downloads\debian-live-12.7.0-amd64-xfce.iso
+  - Type: Linux
+  - Subtype: Debian
+  - Version: Debian (64-bit)
+  - Selected 'Skip Unattened Installation'
+- Hardware:
+  - Base Memory: 6000 MB
+  - Processors: 1 CPU
+- Hard Disk
+  - Selected Create a Virtual Hard isk Now
+  - Hard Disk File Location: C:\Users\XXX\VirtualBox VMs\DebianTeroKarvinenCom\DebianTeroKarvinenCom.vdi
+  - Size: 60 GB
+  - Hard Disk File Type and Variant: VDI (VirtualBox Disk Image) (default)
+  - 
 
 
 
