@@ -141,7 +141,18 @@ Installation steps:
   - Hard Disk File Location: C:\Users\XXX\VirtualBox VMs\DebianTeroKarvinenCom\DebianTeroKarvinenCom.vdi
   - Size: 60 GB
   - Hard Disk File Type and Variant: VDI (VirtualBox Disk Image) (default)
-  - 
+  - Left empty box: Pre-allocate Full Size
+- Clicked Finish -> **Result** DebianTeroKarvinenCom was added to the VM list in VB Manager
 
-
+3. Insert Debian ISO Image as a Virtual CDROM
+- Selected the created VM and went to Settings
+- Selected the plus cd-rom icon in 'Controller: IDE' and Added "Empty"
+- Selected Empty and under "Attributes" clicked the cd-rom icon and chose 'Choose/Create Virtual Optical Disk File'
+- Selected the iso disk image file (debian-live-12.7.0-amd64-xfce.iso) and clicked 'Choose'
+  - **Note** It seems that I already had the same IDE Controller image as a default so now I have two same Controller IDEs and may not have needed the steps above.
+ 
+4. Boot to Desktop - Choose to Live
+- Started the VM by double clicking the VM -> Took about 2 seconds to start and have the VM running.
+- Chose  the default option 'Live system (amd64)' -> Took about a minute to start the desktop
+- 
 
