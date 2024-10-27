@@ -108,3 +108,21 @@ Source: (https://krebsonsecurity.com/2024/07/hackers-steal-phone-sms-records-for
   - Eg. Advance Auto Parts stolen data included full names, SSNs, driver licenses and government ID numbers of all employees and job applicants.
 
 ## c) Install Debian on Virtualbox. Report your work, including the environment (including host OS, the real physical computer used), the steps you took and their results.
+
+Host OS: Windows 10 Pro
+CPU: Intel Core i7-7820HQ CPU@2.90GHz
+RAM: 16 GB
+System 64-bit
+
+Installation steps:
+1. Download Debian ISO Image
+- Go to https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
+- Downloaded debian-live-12.7.0-amd64-xfce.iso
+
+2. Create a New Virtual Machine
+- https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
+- Click Windows hosts to start the download (installer file: VirtualBox-7.1.4-165100-Win)
+- 
+
+
+
