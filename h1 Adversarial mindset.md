@@ -93,13 +93,18 @@ Cyber Kill Chain and ATT&CK Enterprise matrix are both cyberattack frameworks wh
 ## b) Pick a security incident and learn about it. Write briefly about it. Point out the concepts of threat actor, exploit, vulnerability and (business) impact. (You can find writeups about security incidents from Darknet Diaries and Krebs)
 Crooks Steal Phone, SMS Records for Nearly All AT&T Customers
 
-Source: [https://krebsonsecurity.com/category/data-breaches/](https://krebsonsecurity.com/2024/07/hackers-steal-phone-sms-records-for-nearly-all-att-customers/)
+Source: (https://krebsonsecurity.com/2024/07/hackers-steal-phone-sms-records-for-nearly-all-att-customers/)
 
-- Attackers got an access to a third party cloud platform and got access and downloaded customer call and text interactions between 5.1.-10.31.2022 and 2.1.2023.
--   
-
-
-
-
+- Attackers got an access to a third party cloud platform (Snowflake) and got access and downloaded AT&T customer call and text interactions between 5.1.-10.31.2022 and 2.1.2023.
+- The data did not include any sensitive customer data like social security numbers or content of messages but phone numbers and location information where the call had been made.
+    
+- Threat actor: At least one person arrested but probably more hackers were involved
+- Potential exploits used: Credential stuffing (stolen username-password combinations), Brute force Attacks (automated tools to try common passwords), 
+- Vulnerability: Weak protection on Snowflake cloud accounts containing customer information that rely only on basic usernames and passwords
+- AT&T reported that there should not be financial impacts on this incident but still there could be several consequences to its brand and customer relationships.
+  - Possible business impacts: financial and reputational damage, loss of customer trust, customers could also file a lawsuit against AT&T. Reputational impacts also for Snowflake and maybe other business partners 
+    
+- Also other companies that used Snowflake cloud platform to store customer data have been reported similar cases with stolen customer data.
+  - Eg. Advance Auto Parts stolen data included full names, SSNs, driver licenses and government ID numbers of all employees and job applicants.
 
 ## c) Install Debian on Virtualbox. Report your work, including the environment (including host OS, the real physical computer used), the steps you took and their results.
