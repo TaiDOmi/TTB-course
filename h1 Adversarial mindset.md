@@ -153,7 +153,20 @@ Installation steps:
  
 4. Boot to Desktop - Choose to Live
 - Started the VM by double clicking the VM -> Took about 2 seconds to start and have the VM running.
-- Chose  the default option 'Live system (amd64)' -> Took about a minute to start the desktop
+- Chose  the default option 'Live system (amd64)' -> Took about a tominute to start the desktop
 - Selected 'Web Browser' from 'Applications menu' -> Firefox opened
 - Googled 'Cyber Kill Chain' and opened Lockeed Martin page and closed the browser -> Everything works fine
+
+5. Run the Installer - and Use a Good Password
+- Clicked 'Install Debian' image on the dekstop
+- Language American English
+- Location: Clicked Finland on the map
+- Keyboard: Model: Generic 105-key PC, Finnish, Default -> Tested functionality by inputting Scandic letters to test box.
+- Selected 'Erase disk' and left Encrypt system box empty and Boot loader location: Master Boot Record (default)
+-  Typed my name and log in name: 'tomik', Name of the computer: 'foo', selected a good password of 18 characters
+-  Clicked Install
+-  Debian installed -> Cannot log in although definitely correct password
+-  Tried to install Debian again with a simpler 8 character password
+-  Still cannot log in
+-  ![image](https://github.com/user-attachments/assets/cf5aa49b-9d49-4c06-9374-1049329a84b4)
 
