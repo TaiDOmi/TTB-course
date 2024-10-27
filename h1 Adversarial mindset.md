@@ -154,5 +154,6 @@ Installation steps:
 4. Boot to Desktop - Choose to Live
 - Started the VM by double clicking the VM -> Took about 2 seconds to start and have the VM running.
 - Chose  the default option 'Live system (amd64)' -> Took about a minute to start the desktop
-- 
+- Selected 'Web Browser' from 'Applications menu' -> Firefox opened
+- Googled 'Cyber Kill Chain' and opened Lockeed Martin page and closed the browser -> Everything works fine
 
