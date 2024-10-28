@@ -1,4 +1,4 @@
-# h1 Adversarial Mindset (homework)
+![image](https://github.com/user-attachments/assets/976ddb0a-b902-4fb3-8eb6-d9c32b1cc1eb)![image](https://github.com/user-attachments/assets/43534750-dcf7-4bb0-9232-af2cee9fc9f9)# h1 Adversarial Mindset (homework)
 
 ## x) Summaries
 **Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains**
@@ -185,5 +185,9 @@ First Steps
 
 Install Guest Additions for Good Resolution  
 - Installed VirtualBox Guest Additions (Allows eg. to change window size in VB and copy-paste between real computer and VM) from VB Menu selected Devices - Insert Guest Additions CD image -> Image downloaded to desktop
-- 
-
+- Mount the cd-rom from Applications - File Manager
+- Opened terminal emulator, opened the directory of the cd-rom "cd /media/*/VBox*" and listed files in it "ls"
+- Ran the installation script "sudo bash VBoxLinuxAdditions.run". -> The screen went smaller and there was a message "Kernel headers not found for target kernel 6.1.0-26-amd64. Please install them and execute". 
+- ![image](https://github.com/user-attachments/assets/f3697316-77c0-4acc-8d24-c331d3c07f21)
+- Rebooted the VB - Applications - Log out - Restart -> Ok - Still small screen after the restart.
+- Noticed that by pressing the Host (right Ctrl) + c it is possible to scale the window size freely but resolution is not good.
