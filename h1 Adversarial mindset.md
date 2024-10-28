@@ -163,10 +163,27 @@ Installation steps:
 - Location: Clicked Finland on the map
 - Keyboard: Model: Generic 105-key PC, Finnish, Default -> Tested functionality by inputting Scandic letters to test box.
 - Selected 'Erase disk' and left Encrypt system box empty and Boot loader location: Master Boot Record (default)
--  Typed my name and log in name: 'tomik', Name of the computer: 'foo', selected a good password of 18 characters
--  Clicked Install
--  Debian installed -> Cannot log in although definitely correct password
--  Tried to install Debian again with a simpler 8 character password
--  Still cannot log in
--  ![image](https://github.com/user-attachments/assets/cf5aa49b-9d49-4c06-9374-1049329a84b4)
+- Typed my name and log in name: 'tomik', Name of the computer: 'foo', selected a good password of 18 characters
+- Clicked Install
+
+First Login
+- Debian installed -> Cannot log in although definitely correct password
+- Tried to install Debian again with a simpler 8 character password
+- Still cannot log in
+- ![image](https://github.com/user-attachments/assets/cf5aa49b-9d49-4c06-9374-1049329a84b4)
+- ----- slept over the night
+- Tried the next day and password worked this time!?
+- Searched for "tero karvinen/books" and opened the first link -> Works
+
+First Steps
+- Opened terminal from the icon in the tool bar.
+- Entered command "sudo apt-get update" -> asked and typed the password -> package manager updated
+- Upgraded latest versions for Debian, security, cl apps, desktop apps: "sudo apt-get -y dist-upgrades" -> ok
+- Installed a firewall and turned it on: "sudo apt-get -y install ufw" & "sudo ufw enable" -> ok
+  ![image](https://github.com/user-attachments/assets/30e6604d-4b93-40de-847a-cdf26ce8667f)
+- Rebooted the VB - Applications - Log out - Restart -> ok
+
+Install Guest Additions for Good Resolution  
+- Installed VirtualBox Guest Additions (Allows eg. to change window size in VB and copy-paste between real computer and VM) from VB Menu selected Devices - Insert Guest Additions CD image -> Image downloaded to desktop
 - 
+
