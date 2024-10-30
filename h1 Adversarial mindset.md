@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/976ddb0a-b902-4fb3-8eb6-d9c32b1cc1eb)![image](https://github.com/user-attachments/assets/43534750-dcf7-4bb0-9232-af2cee9fc9f9)# h1 Adversarial Mindset (homework)
+# h1 Adversarial Mindset (homework)
 
 ## x) Summaries
 **Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains**
