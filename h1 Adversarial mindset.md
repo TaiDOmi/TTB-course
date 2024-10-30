@@ -63,6 +63,9 @@ A website admin (Gary) for a website forum talking about hacking video game cons
 - The guy who was selling the chips is living a luxurious life in France (FBI lookng for him) but cannot do anything when he stays in France.
 
 **ATT&CK Enterprise Matrix**
+
+Sources:  https://attack.mitre.org/resources/faq/, https://attack.mitre.org/tactics/enterprise/
+
 MITRE ATT&CK is a collection of tactics, techniques and procedures that APTs use against enterprise networks
 Definitions and examples: 
 
