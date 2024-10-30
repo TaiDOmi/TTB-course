@@ -140,7 +140,7 @@ Installation steps:
   - Base Memory: 6000 MB
   - Processors: 1 CPU
 - Hard Disk
-  - Selected Create a Virtual Hard isk Now
+  - Selected Create a Virtual Hard Disk Now
   - Hard Disk File Location: C:\Users\XXX\VirtualBox VMs\DebianTeroKarvinenCom\DebianTeroKarvinenCom.vdi
   - Size: 60 GB
   - Hard Disk File Type and Variant: VDI (VirtualBox Disk Image) (default)
