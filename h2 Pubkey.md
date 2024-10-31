@@ -7,9 +7,11 @@
 2.6 Digital Signatures
 2.7 Digital Signatures With Encryption
 2.8 Random And Pseudo-Random-Sequence Generation
+
 € Rosenbaum 2019: Grokking Bitcoin:
 Chapter 2. Cryptographic hash functions and digital signatures:
 Digital signatures (8 sections, from "Typical use of digital signatures" to "Private key security")
+
 Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
 
 ## a) Pubkey today 
