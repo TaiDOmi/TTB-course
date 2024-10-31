@@ -9,12 +9,12 @@ Blockchain, cryptocurrencies and their practical applications (Lauri Virkamäki)
  blocks are then verified and validated based on algorithms of the specific blockchain
 
  Public key cryptograpy consists of public and private key
- message is encrypted with the public key, it can only be decryptedd with the public key, which tells the decrypting party that the message was sent by the person holding the private ky.
+ message is encrypted with the public key, it can only be decryptedd with the public key, which tells the decrypting party that the message was sent by the person holding the private key.
 
  - bitcoin is the original chain and is slow, does not scale well
  -   new blocks every 10 minutes
 -   Ethereum is faster
-  -     new blocks every 12 seconds
+  - new blocks every 12 seconds
 -   Monero is built with privacy in mind, impossible to track tokens
   - new blocks every 2 seconds
 
@@ -37,4 +37,21 @@ Risks
 - Collapse and hacking of crypto exchanges
 - Private keys (backing up and handling private keys)
 Is there a risk that bitcoin would lose all it's value? 
+
+Security for non IT people
+
+Certificate = public key 
+- new technology
+- 60s-70s
+- can be shared anywhere
+
+a message will be encrypted with a public key and private key can be onl to decrypt the message
+![image](https://github.com/user-attachments/assets/e93c4332-2c1b-45bd-8375-550b5c151dd0)
+
+Two key pairs - 4 in total that machines can communicate
+
+PortSwigger - technical detail
+
+
+
 
