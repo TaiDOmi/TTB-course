@@ -22,13 +22,44 @@ Source: Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source
   - Cannot be reused in another document
   - The document cannot be altered after signed
   - The authenticity of the signature cannot be denied afterwards
-- Digital Signature Trees
-  - 
-
-
+- A digital signature trees
+  - A scheme of infinite amount of one-time signatures
+  - root in a public file authenticates sub-nodes and so on
+- Signing documents with public-key cryptography
+  - either public or private key can be used for encryption
+  - encrypt the document with private key by signing it and send to receiver who decrypts the doc with sender's public key
+-  Time-stampts are used to verifyif signature has been already used (eg. bank checks from a check's timestamp if it has been already used).
+-  Digital signatures with one-way hash functions to save time (only hash is signed)
+  - Benefits: signatue separate from the doc, storage reqs for storing are smaller
+- Algorithms and terminology
+  - Several digital signature algorithms (all with private and public key)
+  - Many can be used for signatures but not for encryption
+- Multiple signatures
+  - Two ways: Both have their separate copies of the doc signed or the second signs the first signature (need both keys to verify)
+- Possible to cheat if the signer 'loses' the key and claims that she did not sign the document (repudiation).
+  - Timestamps can help with this eg. old signatures cannot be invalidated by invalidating eg. a bank account
+  
 2.7 Digital Signatures With Encryption
-
+- A digital signature combined with public-key encryption
+  - Signing before encrypting 
+  - Two key pairs (encryption and signature)
+  - Confirmation of messages received to sender that recipient has received the message
+- Attacks
+  - Public keys can be stolen from public databases
+  - An authority eg. Key Distribution Center (KDC) can be used to prevent substituting public keys
+    - KDC signature assures the validity of the public key
+    
 2.8 Random And Pseudo-Random-Sequence Generation
+- Computers are predictable (periodical numbers that repeat) when generating random numbers
+- Cryptography uses sensitive properties to ensure that the number is random
+- Cryptographically secure pseudo-random-sequences
+  - unpredictable, infeasible to predict next random bits (even if full knowledge of the algorithm and previous bits in the stream)
+  - Still possible to break
+  - Cryptography = Making generators resistant to attack 
+- Real randomness
+  - Cannot be reliable reproduced (even with similar inputs), two copmletely random sequences as a result
+- Three properties for generator
+  - looks random, unpredictable, cannot be reliable reproduced 
 
 € Rosenbaum 2019: Grokking Bitcoin:
 Chapter 2. Cryptographic hash functions and digital signatures:
