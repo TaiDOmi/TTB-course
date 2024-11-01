@@ -3,7 +3,7 @@ Source: https://terokarvinen.com/trust-to-blockchain/#homework
 
 ## x) Summaries
 
-€ Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks, sections
+**Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks, sections**
 
 Source: Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. Wiley. 
 
@@ -61,9 +61,25 @@ Source: Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source
 - Three properties for generator
   - looks random, unpredictable, cannot be reliable reproduced 
 
-€ Rosenbaum 2019: Grokking Bitcoin:
-Chapter 2. Cryptographic hash functions and digital signatures:
-Digital signatures (8 sections, from "Typical use of digital signatures" to "Private key security")
+**Digital signatures**
+
+Source: Rosenbaum K. 2019. Grokking Bitcoin. Manning Publications.
+
+Typical use of digital signatures
+- Step 1: preparation (make a private key and then public key which is calculated from the private key + give the public key to receiver)
+- Step 2: signing (Write email with an attachment which is signed with the private key) and sent email
+- Step 3: Verifying (The receivers verifies the signature and the attachment with the public key)
+- A key pair can be reused
+- A random number generator is used to generate 256-bit random number (available on operating systems)
+- The private key cannot be generated from the public key
+- The public key is alwasys the same when it's generated from the same private key
+- The public key is longer (33 bytes) than the private key (32 bytes)
+- 
+
+Two ways to use the key pair
+
+Signatures in Bitcoin
+Private Key security 
 
 Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
 
