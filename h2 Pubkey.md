@@ -85,7 +85,26 @@ Private Key security
 - Need to be stored in an encrypted file with a strong password
 - Great security: Offline, encrypted file and split the key (eg. three parts on different devices)
 
-Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
+**Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg**
+
+Source: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+
+PGP encryption with 'gpg' tool
+- Linux Kernel development uses PGP signatures
+- Install tools
+- Generate keypair
+- Print keypair
+- Export public key
+- Check public Key 
+- Create folder to simulate the recipient
+- Create a keypair to recipient
+- Import and verify sender's key
+- Sender needs to know that recipient is the correct person (recipient's public key is needed)
+  - Both parties need to know they ha correct public keys
+-  When trust is established a secret message can be sent
+-  
+
+ 
 
 ## a) Pubkey today 
   Explain how you have used public key cryptography today or yesterday, outside of this homework. 
