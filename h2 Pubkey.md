@@ -1,11 +1,32 @@
-# h2 Pubkey (homework)
+# h2 Pubkey (homework) 
+Source: https://terokarvinen.com/trust-to-blockchain/#homework
 
 ## x) Summaries
 
 € Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks, sections
+
+Source: Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. Wiley. 
+
 2.5 Communications Using Public-Key Cryptography
+- Cryptography based on key pairs: a public and a private key ("a cryptographic safe")
+- Public key is used to encrypt a message & Private key is used to decrypt a message
+  - Example: Sending email to one's mailbox (public key) - Opening the email and reading it (private key)
+  - Decryption is extremely hard without the private key
+- Hybrid cryptosystem: public-key cryptography is used to distribute session keys.
+  - A session key is generated when it is needed and destroyed after it is no loger needed (eg. temporary session keys)
+  
 2.6 Digital Signatures
+- A digital signature 
+  - is authentic 
+  - cannot be falsified (signer is the correct person because all parties know that only he knows the private key)
+  - Cannot be reused in another document
+  - The document cannot be altered after signed
+  - The authenticity of the signature cannot be denied afterwards
+- 
+
+
 2.7 Digital Signatures With Encryption
+
 2.8 Random And Pseudo-Random-Sequence Generation
 
 € Rosenbaum 2019: Grokking Bitcoin:
@@ -18,6 +39,11 @@ Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
   Explain how you have used public key cryptography today or yesterday, outside of this homework. 
 In addition to naming the system, identify how different parties use keys in different steps of the system. 
   (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
+
+asuntokauppa
+Nettipankki
+Source: 
+
   
 ## b) Messaging 
   Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. 
