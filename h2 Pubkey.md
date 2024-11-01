@@ -22,7 +22,8 @@ Source: Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source
   - Cannot be reused in another document
   - The document cannot be altered after signed
   - The authenticity of the signature cannot be denied afterwards
-- 
+- Digital Signature Trees
+  - 
 
 
 2.7 Digital Signatures With Encryption
