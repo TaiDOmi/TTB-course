@@ -74,12 +74,16 @@ Typical use of digital signatures
 - The private key cannot be generated from the public key
 - The public key is alwasys the same when it's generated from the same private key
 - The public key is longer (33 bytes) than the private key (32 bytes)
-- 
 
 Two ways to use the key pair
+- Encrypt with public key and decrypt with the private key
+- Encrypt with private key and decrypt with the public key
 
-Signatures in Bitcoin
 Private Key security 
+- Private key needs to be protected at all costs (up to the owner)
+- Cannot be restored if lost
+- Need to be stored in an encrypted file with a strong password
+- Great security: Offline, encrypted file and split the key (eg. three parts on different devices)
 
 Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
 
