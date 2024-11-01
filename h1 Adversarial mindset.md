@@ -1,5 +1,5 @@
 # h1 Adversarial Mindset (homework)
-
+Source: https://terokarvinen.com/trust-to-blockchain/#homework
 ## x) Summaries
 **Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains**
 Source:  (Hutchins et al 2011, https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
