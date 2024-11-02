@@ -105,9 +105,9 @@ PGP encryption with 'gpg' tool
  
 
 ## a) Pubkey today 
-  Explain how you have used public key cryptography today or yesterday, outside of this homework. 
+_Explain how you have used public key cryptography today or yesterday, outside of this homework. 
 In addition to naming the system, identify how different parties use keys in different steps of the system. 
-  (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
+  (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)_
 
 Digital signature of the apartment's deed of sale 
 - DIAS service (digitaalinen suntokauppa)
@@ -117,7 +117,7 @@ Digital signature of the apartment's deed of sale
     - Step 1: DIAS system prepares separate private keys (from hash) for both sellers and the buyer and then public key (which is calculated from the private keys)
   - Parties use public key cryptography to sign the document
     - Step 2: signing (System sends email with an attachment which is signed with the private key) 
-    - Step 3: Verifying (The receivers verifies the signature and the attachment with the public key) by creating a new hash from the deed and compares hashes of the signed and the new hash. If they match signing is valid
+    - Step 3: Verifying (The receivers verifies the signature and the attachment with the public key) by creating a new hash from the deed and compares hashes of the signed and the new hash. If they match signing is valid.
       
 Sources: 
 
@@ -127,13 +127,29 @@ https://www.theseus.fi/bitstream/handle/10024/496522/kuhlberg_joel.pdf;jsessioni
 
 https://www.theseus.fi/bitstream/handle/10024/347237/Tormala_Nina.pdf?sequence=2
 
-  
 ## b) Messaging 
-  Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. 
-  Don't use Tero as a name of any party, unless that's your given name.)
+_Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. 
+Don't use Tero as a name of any party, unless that's your given name.)_
+
+- Install tools
+  - "$ sudo apt-get update" / Update the package manager.
+  - "$ sudo apt-get install gpg micro psmisc" / Install 'gpg' encryption tool.
+- Generate keypair
+  - gpg --gen-key
+    - ![image](https://github.com/user-attachments/assets/b9b9bc00-fa6d-4fbf-a2a0-ead6df4a1e0f)
+- Print keypair
+  - ![image](https://github.com/user-attachments/assets/6d01821b-184f-4d20-b0f6-268c5cd451df)
+- Export public key
+- Check public Key 
+- Create folder to simulate the recipient
+- Create a keypair to recipient
+- Import and verify sender's key
+- Sender needs to know that recipient is the correct person (recipient's public key is needed)
+  - Both parties need to know they ha correct public keys
+-  When trust is established a secret message can be sent
   
 ## c) Other tool 
-  Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
+_Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen._
 
 Source: https://www.mv.helsinki.fi/home/jussantt/linux/keyident.html
 
@@ -142,11 +158,10 @@ OpenSSH
 2. 
   
 ## d) Eve and Mallory
-  In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. 
-  Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
+_In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)_
 
 ## f) Password management
-Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
+_Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)_
 
 ## g) Refer to sources 
-Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
+Done
