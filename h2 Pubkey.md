@@ -192,9 +192,6 @@ Trust established
   - $ 'gpg --decrypt encrypted.pgp' / Decrypt the file.
 ![image](https://github.com/user-attachments/assets/094d0fdc-c239-4d21-a975-d8e5c3ba1db4)
 
-
-
-  
 ## c) Other tool 
 _Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen._
 
@@ -206,6 +203,20 @@ OpenSSH
   
 ## d) Eve and Mallory
 _In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)_
+
+Source: https://www.kernelconcepts.de/email-encryption-with-pgp/?lang=en
+
+PGP povides guard for both Eve (passive eavesdropper) and active attacker (Mallory).
+Eve:
+- Encryption with public key 
+  - The sender encrypts the message with recipient's public key -> Eve cannot interpret the message even though she would have access to it
+- Unique and random session key is generated for each session which is then encrpyted with the recipient's public key. -> Even if the message or session key is intercepted it cannot be decrypted.
+- Data is sompressed
+
+Mallory:
+- Digital signature verified with the sender's public key verifies that the message came from the sender unaltered.
+- Session keys prevent replay attacks
+- Public key authentication verifications and signing the public keys prevent attacker from changing the public key. -> Key trust validation fails
 
 ## f) Password management
 _Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)_
