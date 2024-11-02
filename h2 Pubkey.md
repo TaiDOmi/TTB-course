@@ -132,16 +132,23 @@ _Send an encrypted and signed message using PGP, then verify and decrypt it. (Yo
 Don't use Tero as a name of any party, unless that's your given name.)_
 
 - Install tools
-  - "$ sudo apt-get update" / Update the package manager.
-  - "$ sudo apt-get install gpg micro psmisc" / Install 'gpg' encryption tool.
+  - $ 'sudo apt-get update' / Update the package manager.
+  - $ 'sudo apt-get install gpg micro psmisc' / Install 'gpg' encryption tool.
 - Generate keypair
-  - gpg --gen-key
+  - $ 'gpg --gen-key'
     - ![image](https://github.com/user-attachments/assets/b9b9bc00-fa6d-4fbf-a2a0-ead6df4a1e0f)
 - Print keypair
   - ![image](https://github.com/user-attachments/assets/6d01821b-184f-4d20-b0f6-268c5cd451df)
 - Export public key
-- Check public Key 
+  - $ 'cd' / Go to home directory. 
+  - $ 'gpg --export --armor --output tomi.pub' / (export public key, with ASCII characters and output it into the file tomi.pub)
+- Check public Key
+  - $ 'head -4 tomi.pub'
+  - ![image](https://github.com/user-attachments/assets/14686506-18c3-4964-b477-423b472214e1)
 - Create folder to simulate the recipient
+   - $ 'cd' / Go to home directory.
+   - $ 'mkdir liisa/' / Make a folder to Liisa to simulate another user. 
+   - $ 'chmod og-rwx liisa/' / Protect the folderby removing read, write, and execute permissions for all users except the file's owner. 
 - Create a keypair to recipient
 - Import and verify sender's key
 - Sender needs to know that recipient is the correct person (recipient's public key is needed)
