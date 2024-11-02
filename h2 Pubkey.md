@@ -204,7 +204,8 @@ OpenSSH
 ## d) Eve and Mallory
 _In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)_
 
-Source: https://www.kernelconcepts.de/email-encryption-with-pgp/?lang=en
+Sources: https://www.kernelconcepts.de/email-encryption-with-pgp/?lang=en
+https://crysp.uwaterloo.ca/courses/cs458/F08-lectures/Module5.pdf
 
 PGP povides guard for both Eve (passive eavesdropper) and active attacker (Mallory).
 Eve:
@@ -214,12 +215,25 @@ Eve:
 - Data is sompressed
 
 Mallory:
-- Digital signature verified with the sender's public key verifies that the message came from the sender unaltered.
+- Digital signature verified with the sender's public key verifies that the message came from the sender unaltered. -> Prevents man in the middle attacks
 - Session keys prevent replay attacks
 - Public key authentication verifications and signing the public keys prevent attacker from changing the public key. -> Key trust validation fails
 
 ## f) Password management
 _Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)_
+
+Source: https://www.passwordstore.org/
+Pass password management system
+- Passwords are saved in gpg encrypted file
+- used with command line
+- Sample commands:
+  - $ 'pass' / List all passwords
+  - $ 'pass Email/gmail.com' / Show password for gmail.
+  - $ '$ pass -c Email/gmail.com / Copy to clipboard.
+  - $ 'pass insert Business/Kauppalehti.fi' / Adding passwords to store
+  - $ 'pass generate Email/JonDoe.com' / Generate random password
+  - $ '$ pass rm Business/Kauppalehti.fi' / Remove password
+
 
 ## g) Refer to sources 
 Done
