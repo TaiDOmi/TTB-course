@@ -102,8 +102,6 @@ PGP encryption with 'gpg' tool
 - Sender needs to know that recipient is the correct person (recipient's public key is needed)
   - Both parties need to know they ha correct public keys
 -  When trust is established a secret message can be sent
--  
-
  
 
 ## a) Pubkey today 
@@ -111,9 +109,23 @@ PGP encryption with 'gpg' tool
 In addition to naming the system, identify how different parties use keys in different steps of the system. 
   (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
-asuntokauppa
-Nettipankki
-Source: 
+Digital signature of the apartment's deed of sale 
+- DIAS service (digitaalinen suntokauppa)
+  - three parties need to sign (two sellers and one buyer) + apartment dealer
+  - Apartment deed is created in digital form to (DIAS system) by the apartment dealer (creates hash fingerprint for the deed. 
+  - DIAS system sends invitations to all three parties by email to sign the document
+    - Step 1: DIAS system prepares separate private keys (from hash) for both sellers and the buyer and then public key (which is calculated from the private keys)
+  - Parties use public key cryptography to sign the document
+    - Step 2: signing (System sends email with an attachment which is signed with the private key) 
+    - Step 3: Verifying (The receivers verifies the signature and the attachment with the public key) by creating a new hash from the deed and compares hashes of the signed and the new hash. If they match signing is valid
+      
+Sources: 
+
+Rosenbaum K. 2019. Grokking Bitcoin. Manning Publications.
+
+https://www.theseus.fi/bitstream/handle/10024/496522/kuhlberg_joel.pdf;jsessionid=5C656AD3DB64691E6F8AF746BBF92EFD?sequence=2
+
+https://www.theseus.fi/bitstream/handle/10024/347237/Tormala_Nina.pdf?sequence=2
 
   
 ## b) Messaging 
@@ -122,6 +134,12 @@ Source:
   
 ## c) Other tool 
   Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
+
+Source: https://www.mv.helsinki.fi/home/jussantt/linux/keyident.html
+
+OpenSSH
+1. Create a key pair with default settings "$ ssh-keygen -t rsa"
+2. 
   
 ## d) Eve and Mallory
   In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. 
