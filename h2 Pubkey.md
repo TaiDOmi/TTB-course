@@ -176,8 +176,16 @@ Don't use Tero as a name of any party, unless that's your given name.)_
   - $ 'gpg --import liisa.pub' / Tomi imports Liisa's key
   - $ '$ gpg --sign-key "_insert key here_"' / Tomi signs Liisa's key to mark it as trusted
   - ![image](https://github.com/user-attachments/assets/9d0f8707-43bc-4cdd-bd74-bb1541577739)
+  
+Trust established
 
 - / Liisa sends message to Tomi
+  - $ cd ~/liisa/
+  - $ micro miniviesti.txt
+  - ![image](https://github.com/user-attachments/assets/93080086-fd33-4215-832d-63f1d20f8f2c)
+  - $ 'gpg --homedir . --encrypt --recipient taidomi@gmail.com --sign --output encrypted.pgp --armor miniviesti.txt'/ Encrypt and sign the message.
+  - ![image](https://github.com/user-attachments/assets/db314e46-69a3-42d1-a27f-73373527e0ea)
+  - 
 
 -  When trust is established a secret message can be sent
   
