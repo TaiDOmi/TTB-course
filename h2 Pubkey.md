@@ -178,16 +178,22 @@ Don't use Tero as a name of any party, unless that's your given name.)_
   - ![image](https://github.com/user-attachments/assets/9d0f8707-43bc-4cdd-bd74-bb1541577739)
   
 Trust established
-
+-  When trust is established a secret message can be sent
 - / Liisa sends message to Tomi
   - $ cd ~/liisa/
   - $ micro miniviesti.txt
   - ![image](https://github.com/user-attachments/assets/93080086-fd33-4215-832d-63f1d20f8f2c)
   - $ 'gpg --homedir . --encrypt --recipient taidomi@gmail.com --sign --output encrypted.pgp --armor miniviesti.txt'/ Encrypt and sign the message.
   - ![image](https://github.com/user-attachments/assets/db314e46-69a3-42d1-a27f-73373527e0ea)
-  - 
+  - Encrypted message was generated.
+  - ![image](https://github.com/user-attachments/assets/c999591a-3ce9-4384-a569-ba7dba922ead)
+  - $ 'cp -v liisa/encrypted.pgp .'/ Copy the file to Tomi
+'liisa/encrypted.pgp' -> './encrypted.pgp'
+  - $ 'gpg --decrypt encrypted.pgp' / Decrypt the file.
+![image](https://github.com/user-attachments/assets/094d0fdc-c239-4d21-a975-d8e5c3ba1db4)
 
--  When trust is established a secret message can be sent
+
+
   
 ## c) Other tool 
 _Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen._
