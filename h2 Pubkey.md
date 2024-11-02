@@ -100,7 +100,8 @@ PGP encryption with 'gpg' tool
 - Create a keypair to recipient
 - Import and verify sender's key
 - Sender needs to know that recipient is the correct person (recipient's public key is needed)
-  - Both parties need to know they ha correct public keys
+- Import and verify recipient's key
+  - Both parties need to know they have correct public keys
 -  When trust is established a secret message can be sent
  
 
@@ -148,11 +149,32 @@ Don't use Tero as a name of any party, unless that's your given name.)_
 - Create folder to simulate the recipient
    - $ 'cd' / Go to home directory.
    - $ 'mkdir liisa/' / Make a folder to Liisa to simulate another user. 
-   - $ 'chmod og-rwx liisa/' / Protect the folderby removing read, write, and execute permissions for all users except the file's owner. 
-- Create a keypair to recipient
+   - $ 'chmod og-rwx liisa/' / Protect the folderby removing read, write, and execute permissions for all users except the file's owner.
+- Simulate the recipient (Liisa) and work from her folder
+  - $ 'cd liisa/'
+  - $ 'gpg --homedir . --fingerprint' / replace 'gpg' with 'gpg --homedir (in every command)
+ ![image](https://github.com/user-attachments/assets/f8aed324-cb77-4087-8ada-e847a250eb7c)
+
+- Create a keypair to recipient (Liisa)
+  - $ 'gpg --homedir . --gen-key'
+  - $ 'gpg --homedir . --fingerprint'
+  - ![image](https://github.com/user-attachments/assets/db91fa22-7081-4fe4-8f35-97ec32507950)
 - Import and verify sender's key
-- Sender needs to know that recipient is the correct person (recipient's public key is needed)
-  - Both parties need to know they ha correct public keys
+  - $ 'cd' / go to home directory where the public key (tomi.pub) is saved.
+  - $ 'cp -v tomi.pub liisa/' / Copy the exported public key as Alice is simulated
+  - ![image](https://github.com/user-attachments/assets/44446a8e-8ed2-446c-aa77-5849dde7bb57)
+  - ![image](https://github.com/user-attachments/assets/bc8e6531-4778-41a5-80a0-8dc5dd7fa856)
+  - $ 'gpg --homedir . --fingerprint' / Import and verify Tomi's Key - public keys match
+  - ![image](https://github.com/user-attachments/assets/d549bde9-e47a-42ee-8f21-0cfd77e8fd1c)
+  - $ '$ gpg --homedir . --sign-key "_insert key here_"' / Liisa signs Tomi's key to mark it as trusted
+  - ![image](https://github.com/user-attachments/assets/11cce1c1-2735-4443-a15b-60c92bb996eb)
+- Import and verify recipient's key
+  - $ gpg --homedir . --export --armor --output liisa.pub
+  - $ cp -v liisa/liisa.pub .
+  'liisa/liisa.pub' -> './liisa.pub'
+
+- / Liisa sends message to Tomi
+
 -  When trust is established a secret message can be sent
   
 ## c) Other tool 
