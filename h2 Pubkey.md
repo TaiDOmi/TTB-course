@@ -222,8 +222,17 @@ Mallory:
 ## f) Password management
 _Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)_
 
-Source: https://www.passwordstore.org/
-Pass password management system
+Sources: https://www.passwordstore.org/
+https://www.theguardian.com/technology/2022/mar/19/not-using-password-manager-why-you-should-online-security
+
+Why to use password management system?
+- No need to remember passwords
+- Generate strong passwords and save them to the system
+- Ensure unique login for each account -> Prevents credential-stuffing (Attacker uses password trying to get in other services eg. Tries if Facebook password applies to Netflix etc.)
+- Prevent phishing attacks (Click a fake link to steal a password). Since credentials are saved for specific address they are filled automatically to fields. 
+
+
+'Pass' password management system
 - Passwords are saved in gpg encrypted file
 - used with command line
 - Sample commands:
