@@ -172,6 +172,10 @@ Don't use Tero as a name of any party, unless that's your given name.)_
   - $ gpg --homedir . --export --armor --output liisa.pub
   - $ cp -v liisa/liisa.pub .
   'liisa/liisa.pub' -> './liisa.pub'
+  - ![image](https://github.com/user-attachments/assets/437eca39-7f59-488e-8056-2c205ac0b7a6)
+  - $ 'gpg --import liisa.pub' / Tomi imports Liisa's key
+  - $ '$ gpg --sign-key "_insert key here_"' / Tomi signs Liisa's key to mark it as trusted
+  - ![image](https://github.com/user-attachments/assets/9d0f8707-43bc-4cdd-bd74-bb1541577739)
 
 - / Liisa sends message to Tomi
 
