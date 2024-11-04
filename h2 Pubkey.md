@@ -230,11 +230,22 @@ OpenSSH
   - $ 'micro miniviesti2.txt'
   - ![image](https://github.com/user-attachments/assets/5e01c2a1-4912-4344-a1a3-0cd0816b5c6a)
   - Encrypt a message using Tomi's public key:
-    - $ 'cat miniviesti2.txt | openssl rsautl -encrypt -pubin -inkey id_rsa_pub.pkcs8 > miniviesti2.enc'
+    - $ 'cat miniviesti2.txt | openssl rsautl -encrypt -pubin -inkey id_rsa_pub.pkcs8 > miniviesti2.enc' -> For som reason I cannot encrypt the message because system cannot read public key
+   ![image](https://github.com/user-attachments/assets/e22d80a1-4990-409b-be80-9c55152ed90a)
+    - The public key:  
+    - ![image](https://github.com/user-attachments/assets/7b9675a8-7440-4283-89e7-9893c8b08dfb)
 
+  - $ 'cp -v liisa/.ssh/miniviesti2.enc /home/tomik/.ssh'/ Copy the file to Tomi
+'liisa/encrypted.pgp' -> './encrypted.pgp'
+  - $ 'gpg --decrypt encrypted.pgp' / Decrypt the file.
  
 
 The downside of RSA algorythm can only encrypt files that are same size as its key size (2048 bits / 256 letters). ->  
+
+
+https://medium.com/sureshatt/public-key-cryptography-with-openssl-bdaf39410a53
+
+
   
 ## d) Eve and Mallory
 _In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)_
