@@ -212,8 +212,7 @@ PGP povides guard for both Eve (passive eavesdropper) and active attacker (Mallo
 Eve:
 - Encryption with public key 
   - The sender encrypts the message with recipient's public key -> Eve cannot interpret the message even though she would have access to it
-- Unique and random session key is generated for each session which is then encrpyted with the recipient's public key. -> Even if the message or session key is intercepted it cannot be decrypted.
-- Data is compressed
+  -   - $ 'gpg --homedir . **--encrypt** --recipient tero@example.com.invalid --sign --output encrypted.pgp --armor message.txt'
 
 Mallory:
 - Digital signature verified with the sender's public key verifies that the message came from the sender unaltered. -> Prevents man in the middle attacks
