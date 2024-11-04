@@ -161,7 +161,7 @@ Don't use Tero as a name of any party, unless that's your given name.)_
   - ![image](https://github.com/user-attachments/assets/db91fa22-7081-4fe4-8f35-97ec32507950)
 - Import and verify sender's key
   - $ 'cd' / go to home directory where the public key (tomi.pub) is saved.
-  - $ 'cp -v tomi.pub liisa/' / Copy the exported public key as Alice is simulated
+  - $ 'cp -v tomi.pub liisa/' / Copy the exported public key as Liisa is simulated
   - ![image](https://github.com/user-attachments/assets/44446a8e-8ed2-446c-aa77-5849dde7bb57)
   - ![image](https://github.com/user-attachments/assets/bc8e6531-4778-41a5-80a0-8dc5dd7fa856)
   - $ 'gpg --homedir . --fingerprint' / Import and verify Tomi's Key - public keys match
@@ -195,11 +195,46 @@ Trust established
 ## c) Other tool 
 _Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen._
 
-Source: https://www.mv.helsinki.fi/home/jussantt/linux/keyident.html
+Source: https://medium.com/akatsuki-taiwan-technology/encrypt-using-ssh-key-pair-f7e99dfef164
+https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+
+Encrypted messaging with Secure Shell (SSH)
 
 OpenSSH
-1. Create a key pair with default settings "$ ssh-keygen -t rsa"
-2. 
+- Install tools
+  - $ 'sudo apt-get update' / Update the package manager.
+  - $ 'sudo apt-get install openssh-server' / Install open-ssh encryption tool.
+- Generate keypair (to Sender 'Tomi)'
+- Create a key pair with default settings "$ ssh-keygen -t rsa"
+  - ![image](https://github.com/user-attachments/assets/293982fe-17d0-4b57-aa6e-338e26092552)
+  - Keys (private 'id_rsa' & public 'id-rsa.pub') were generated into subdirectory .ssh
+![image](https://github.com/user-attachments/assets/9675fa2f-eccc-428c-afc0-add6b121b2b4)
+  - Need to convert the public key into PKCS8 format (to use with openssl)
+  - ![image](https://github.com/user-attachments/assets/60985dbc-259e-4347-92d9-3f42a6392142)
+  - ![image](https://github.com/user-attachments/assets/b6785be5-f557-4560-8892-75053e0de4e4)
+
+- Generate keypair (to Receiver 'Liisa')'
+- Create a key pair with default settings "$ ssh-keygen -t rsa"
+  - Made a directory to key 'mkdir .ssh' under Liisa's folder because for some reason keygen could not do the sub-folder automatically for Liisa.
+  -  ![image](https://github.com/user-attachments/assets/0035828a-de9a-426c-b8f6-bfb70b4bc9c9)
+  -  ![image](https://github.com/user-attachments/assets/da428288-c614-4758-9d2d-affefa385bd5)
+-  Import and verify sender's key
+  - $ 'cd/home/tomik/.ssh' / go to home directory where the public key (is_rsa.pub.pkcs8) is saved.
+  - $ 'cp -v id_rsa_pub.pkcs8 /home/tomik/liisa/.ssh' / Copy the exported public key to Liisa's .ssh folder
+  - Convert Liisa's public key to PKCS8 format:
+    - $ 'ssh-keygen -e -f ./id_rsa_liisa.pub > id_rsa_liisa_pub.pkcs8'
+    - ![image](https://github.com/user-attachments/assets/d87eb140-8555-4dd7-adb6-b43be278ae5b)
+  - Liisa has now both public keys
+  - ![image](https://github.com/user-attachments/assets/335debea-5034-4e31-8500-b77dafe1234a)
+- Liisa creates a message to Tomi
+  - $ 'micro miniviesti2.txt'
+  - ![image](https://github.com/user-attachments/assets/5e01c2a1-4912-4344-a1a3-0cd0816b5c6a)
+  - Encrypt a message using Tomi's public key:
+    - $ 'cat miniviesti2.txt | openssl rsautl -encrypt -pubin -inkey id_rsa_pub.pkcs8 > miniviesti2.enc'
+
+ 
+
+The downside of RSA algorythm can only encrypt files that are same size as its key size (2048 bits / 256 letters). ->  
   
 ## d) Eve and Mallory
 _In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)_
