@@ -206,18 +206,27 @@ _In many crypto stories, Eve is a passive eavesdropper, listening on the wire. M
 
 Sources: https://www.kernelconcepts.de/email-encryption-with-pgp/?lang=en
 https://crysp.uwaterloo.ca/courses/cs458/F08-lectures/Module5.pdf
+https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 
 PGP povides guard for both Eve (passive eavesdropper) and active attacker (Mallory).
 Eve:
 - Encryption with public key 
   - The sender encrypts the message with recipient's public key -> Eve cannot interpret the message even though she would have access to it
 - Unique and random session key is generated for each session which is then encrpyted with the recipient's public key. -> Even if the message or session key is intercepted it cannot be decrypted.
-- Data is sompressed
+- Data is compressed
 
 Mallory:
 - Digital signature verified with the sender's public key verifies that the message came from the sender unaltered. -> Prevents man in the middle attacks
-- Session keys prevent replay attacks
-- Public key authentication verifications and signing the public keys prevent attacker from changing the public key. -> Key trust validation fails
+  - $ 'gpg --homedir . **--encrypt** --recipient tero@example.com.invalid --sign --output encrypted.pgp --armor message.txt'
+- Public key authentication verifications and signing the public keys prevent attacker from changing the public key. -> Mallory cannot impersonate the sender
+  - Sender and receiver imports and validates each others public key:
+  - $ 'gpg **--sign-key** "B20F D80B 705C 791D C878  0030 7BAA 4F13 2645 134F'
+  - Endrypting and signing the message: $ 'gpg --homedir . **--encrypt** --recipient tero@example.com.invalid **--sign** --output encrypted.pgp --armor message.txt'
+  - $ 'gpg --decrypt encrypted.pgp'
+    - Signarure validation at the end of decrypted message
+    - gpg: Signature made Fri 17 Nov 2023 12:52:22 PM EET
+      gpg: using RSA key B20FD80B705C791DC87800307BAA4F132645134F
+      gpg: Good signature from "Alice <alice@example.com.invalid>" [full]
 
 ## f) Password management
 _Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)_
