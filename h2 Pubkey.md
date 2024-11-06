@@ -1,11 +1,11 @@
 # h2 Pubkey (homework) 
-Source: https://terokarvinen.com/trust-to-blockchain/#homework
+Source: _https://terokarvinen.com/trust-to-blockchain/#homework_
 
 ## x) Summaries
 
 **Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks, sections**
 
-Source: Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. Wiley. 
+Source: _Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. Wiley._
 
 2.5 Communications Using Public-Key Cryptography
 - Cryptography based on key pairs: a public and a private key ("a cryptographic safe")
@@ -63,7 +63,7 @@ Source: Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source
 
 **Digital signatures**
 
-Source: Rosenbaum K. 2019. Grokking Bitcoin. Manning Publications.
+Source: _Rosenbaum K. 2019. Grokking Bitcoin. Manning Publications._
 
 Typical use of digital signatures
 - Step 1: preparation (make a private key and then public key which is calculated from the private key + give the public key to receiver)
@@ -87,7 +87,7 @@ Private Key security
 
 **Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg**
 
-Source: https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+Source: _https://terokarvinen.com/2023/pgp-encrypt-sign-verify/_
 
 PGP encryption with 'gpg' tool
 - Linux Kernel development uses PGP signatures
@@ -122,11 +122,11 @@ Digital signature of the apartment's deed of sale
       
 Sources: 
 
-Rosenbaum K. 2019. Grokking Bitcoin. Manning Publications.
+_Rosenbaum K. 2019. Grokking Bitcoin. Manning Publications.
 
 https://www.theseus.fi/bitstream/handle/10024/496522/kuhlberg_joel.pdf;jsessionid=5C656AD3DB64691E6F8AF746BBF92EFD?sequence=2
 
-https://www.theseus.fi/bitstream/handle/10024/347237/Tormala_Nina.pdf?sequence=2
+https://www.theseus.fi/bitstream/handle/10024/347237/Tormala_Nina.pdf?sequence=2_
 
 ## b) Messaging 
 _Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. 
@@ -137,7 +137,7 @@ Don't use Tero as a name of any party, unless that's your given name.)_
   - $ 'sudo apt-get install gpg micro psmisc' / Install 'gpg' encryption tool.
 - Generate keypair
   - $ 'gpg --gen-key'
-    - ![image](https://github.com/user-attachments/assets/b9b9bc00-fa6d-4fbf-a2a0-ead6df4a1e0f)
+  - ![image](https://github.com/user-attachments/assets/b9b9bc00-fa6d-4fbf-a2a0-ead6df4a1e0f)
 - Print keypair
   - ![image](https://github.com/user-attachments/assets/6d01821b-184f-4d20-b0f6-268c5cd451df)
 - Export public key
@@ -195,8 +195,8 @@ Trust established
 ## c) Other tool 
 _Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen._
 
-Source: https://medium.com/akatsuki-taiwan-technology/encrypt-using-ssh-key-pair-f7e99dfef164
-https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process
+Sources: _https://medium.com/akatsuki-taiwan-technology/encrypt-using-ssh-key-pair-f7e99dfef164
+https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process_
 
 Encrypted messaging with Secure Shell (SSH)
 
@@ -238,21 +238,43 @@ OpenSSH
   - $ 'cp -v liisa/.ssh/miniviesti2.enc /home/tomik/.ssh'/ Copy the file to Tomi
 'liisa/encrypted.pgp' -> './encrypted.pgp'
   - $ 'gpg --decrypt encrypted.pgp' / Decrypt the file.
- 
 
-The downside of RSA algorythm can only encrypt files that are same size as its key size (2048 bits / 256 letters). ->  
+**Tried to do the same with genpkey, pkey and pkeyutil -tools**
 
+Source: _https://medium.com/sureshatt/public-key-cryptography-with-openssl-bdaf39410a53_
+- Created a keypair for Tomi with genpkey -tool (The generated file contains both keys.)
+  - $ 'openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:1028 -outform pem -out rsakey.pem -aes192'
+- Extracted the public key with pkey-tool
+  - $ 'openssl pkey -in rsakey.pem -out rsapubkey.pem -outform pem -pubout'
+- Copied the public key to liisa
+  - $ 'cp -v rsapubkey.pem /home/tomik/liisa/'
+- Generate Keypair to Liisa
+  - $ 'openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:1028 -outform pem -out liisarsakey.pem -aes192'
+- Extracted the public key with pkey-tool for Liisa
+  - $ 'openssl pkey -in liisarsakey.pem -out liisarsapubkey.pem -outform pem -pubout'
+- Liisa create's a text file and signs it with pkeyutl-tool
+  - $ 'micro liisaviesti.txt'
+  - $ 'openssl pkeyutl -sign -in liisaviesti.txt -inkey liisarsakey.pem -out sigliisaviesti.txt'
+- Verify signature with public key
+  - $ 'openssl pkeyutl -verify -pubin -inkey liisarsapubkey.pem -sigfile sigliisaviesti.txt -in liisaviesti.txt'
+  - ![image](https://github.com/user-attachments/assets/689e18b3-06f0-4eb2-9623-3143d67b74b5)
+- Liisa encrypts the message with Tero's public key
+  - $'openssl pkeyutl -encrypt -pubin -inkey rsapubkey.pem -in data.txt -out encliisaviesti.txt'
+- Send the encrypted message to Tomi
+  - $ 'cd encliisaviesti.txt /home/tomik/'
+- Tomi decrypts the message with private key
+  - $ 'openssl pkeyutl -decrypt -inkey rsakey.pem -in encliisaviesti.txt -out decliisaviesti.txt'
+  - ![image](https://github.com/user-attachments/assets/2b3f9a70-b4f1-4399-b4f7-1448f2a02246)
 
-https://medium.com/sureshatt/public-key-cryptography-with-openssl-bdaf39410a53
-
-
+I did not find instructions to create trust with OpenSSL tool. Otherwise the encrypting process was pretty much the same that with PGP. It feels also that PGP is simpler to use than OpenSSL. 
+Also I found that they seem to have a different purpose of use and suited for different security needs. PGP is more suitable for encrypting and signing messages and OpenSSH is focused on securing remote access. Both encrytption tools (PGP and OpenSSL) share the same risk of stolen or leaked private keys. _Source: ChatGPT: 'Compare security between PGP and OpenSSH security tools'_
   
 ## d) Eve and Mallory
 _In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)_
 
-Sources: https://www.kernelconcepts.de/email-encryption-with-pgp/?lang=en
+Sources: _https://www.kernelconcepts.de/email-encryption-with-pgp/?lang=en
 https://crysp.uwaterloo.ca/courses/cs458/F08-lectures/Module5.pdf
-https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+https://terokarvinen.com/2023/pgp-encrypt-sign-verify/_
 
 PGP povides guard for both Eve (passive eavesdropper) and active attacker (Mallory).
 Eve:
@@ -276,8 +298,8 @@ Mallory:
 ## f) Password management
 _Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)_
 
-Sources: https://www.passwordstore.org/
-https://www.theguardian.com/technology/2022/mar/19/not-using-password-manager-why-you-should-online-security
+Sources: _https://www.passwordstore.org/
+https://www.theguardian.com/technology/2022/mar/19/not-using-password-manager-why-you-should-online-security_
 
 Why to use password management system?
 - No need to remember passwords
