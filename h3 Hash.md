@@ -53,14 +53,31 @@ Where Did the Solution Go?
 - In the file 'solved' but it's also possible to see with a command $ 'hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show'
 ![image](https://github.com/user-attachments/assets/f910744e-f197-4626-9ff1-7beb8c1048be)
 
+a) Billion dollar busywork. 
+_Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)_
 
-a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
+Source: _https://terokarvinen.com/trust-to-blockchain/#homework_
 
+![image](https://github.com/user-attachments/assets/ba76ee68-d918-4ce5-bece-9e13dcdb4816)
+- Tried "Hello Molly".
+
+![image](https://github.com/user-attachments/assets/8381e282-8566-4430-a77c-84835b4c63e8)
+
+- The correct string was found right away. But why the first letter changed to zero?
+https://bitcoin.stackexchange.com/questions/102414/how-does-solving-a-block-work-in-relation-to-the-first-letter-number-after-the-0
 
 b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
 
+- micro tomi.txt
+
+![image](https://github.com/user-attachments/assets/47122444-b90d-46f3-bd49-31c30b7ccdbe)
+- Changed one letter ('p' to 's') in the file: ![image](https://github.com/user-attachments/assets/c40f85eb-5a70-4cd6-b63d-d52cccd862e2)
+
+![image](https://github.com/user-attachments/assets/3dbc0ec0-f316-4863-ba47-8443c6d22839)
+- The change of just one character in the text file generated a completely different hash. 
 
 c) Hashcat. Install hashcat and test that it works.
+
 
 
 d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3
