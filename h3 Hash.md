@@ -50,7 +50,7 @@ What Did Hashcat Say?
 
 Where Did the Solution Go?
 
-- In the file 'solved' but lso possbile to see with a command $ 'hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show'
+- In the file 'solved' but it's also possible to see with a command $ 'hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show'
 ![image](https://github.com/user-attachments/assets/f910744e-f197-4626-9ff1-7beb8c1048be)
 
 
