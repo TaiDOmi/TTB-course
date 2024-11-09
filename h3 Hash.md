@@ -20,6 +20,30 @@ Source: _Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Sourc
  
 Karvinen 2022: Cracking Passwords with Hashcat_
 
+Source _https://terokarvinen.com/2022/cracking-passwords-with-hashcat/_
+
+- Hashcat is a password cracking tool 
+- Hashcat tries every word in a dictionary to find if it matches the password
+
+- Installed the needed apps: ![image](https://github.com/user-attachments/assets/4945dafb-94f2-4c15-8d66-58e3651524ba)
+-  Created a directory for the work: ![image](https://github.com/user-attachments/assets/896b9d9a-c4dd-4958-a200-e77a73af274f)
+- Got a dictionary (Rockyou): ![image](https://github.com/user-attachments/assets/a432a549-5ad4-4b9e-b004-85954460a040)
+- Use tar -tool to extract file:![image](https://github.com/user-attachments/assets/525eed53-4a8e-45b8-b31d-ae0b4b15c7cf)
+
+Identify Hash Type
+
+- Type of the hash needs to be known to crack (number for the parameter -m)
+- Hashcat does it for you with the command: $ 'hashid -m "insert hash here"'
+![image](https://github.com/user-attachments/assets/77baa2d7-e17c-434b-8c7e-66212edc3c66)
+- The right type is usually in the top three of the list
+- Selected md5 because it's very common hash type
+
+Crack The Hash
+- Used the MD% (Hashcat mode: 0): ![image](https://github.com/user-attachments/assets/3624936a-f966-402b-8731-12a08ccceaca)
+- Password is summer: ![image](https://github.com/user-attachments/assets/057069a7-15ed-4141-9032-1126e8814837)
+- 
+
+
 a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
 
 
