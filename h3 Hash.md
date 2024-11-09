@@ -3,7 +3,7 @@
 _You'll use hashes for fingerprinting files, protecting passwords and as Bitcoin puzzles. You'll also take the role of the attacker, and crack some hashes with a well known tool, Hashcat._
 
 # x) Read and summarize (with some bullet points)
-_€ Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks: subchapters "2.3 One-way Fuctions" and "2.4 One-Way Hash Functions".
+Source: _Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. Wiley._
 
 2.3 2.3 One-way Fuctions" and "2.4 One-Way Hash Functions
 
@@ -14,11 +14,10 @@ _€ Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks: 
   - A hash can be same for a pre-image - no certainty but reasonable accuracy to interpret that the strings are equal
   - A hash function can be computed other way pretty easily from a certain byte value and generate XOR values for it
   - A hash is public - The security lies in its one-wayness.
-    - Single-bit change in the pre.image changes half a all the bits in the hash
-  - 
-
-2.4 One-Way Hash Functions
-
+  - Single-bit change in the pre-image changes half a all the bits in the hash
+  - A hash works like a certificate of authenticity - if someone hash a correct hash value you can be sure that he has the original file
+  - A message authentication code (MAC) / Data authentication code (DAC) - 1 way hash function with a secret key - only the one who has the key can verify the hash value.
+ 
 Karvinen 2022: Cracking Passwords with Hashcat_
 
 a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
