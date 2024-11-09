@@ -41,7 +41,17 @@ Identify Hash Type
 Crack The Hash
 - Used the MD% (Hashcat mode: 0): ![image](https://github.com/user-attachments/assets/3624936a-f966-402b-8731-12a08ccceaca)
 - Password is summer: ![image](https://github.com/user-attachments/assets/057069a7-15ed-4141-9032-1126e8814837)
-- 
+
+What Did Hashcat Say?
+
+- If Status in the Hashcat out is Exhausted it would mean that all words in the dictionary were tried but non of the worked:
+![image](https://github.com/user-attachments/assets/c6a437e4-3f20-4657-a012-8215271ab106)
+- Now the status was 'Cracked', Hashtype was MD5 and the target was the inputted hash 
+
+Where Did the Solution Go?
+
+- In the file 'solved' but lso possbile to see with a command $ 'hashcat -m 0 6b1628b016dff46e6fa35684be6acc96 rockyou.txt --show'
+![image](https://github.com/user-attachments/assets/f910744e-f197-4626-9ff1-7beb8c1048be)
 
 
 a) Billion dollar busywork. Command 'echo -n "hello"|sha256sum' prints a hash. Try adding something to the string, e.g. 'echo -n 'hello asdf'|sha256sum'. What do you have to add to get a hash that starts with a zero? (Voluntary bonus: How is this related to Bitcoin? Voluntary difficult bonus: How many zeros can you get to the beginning? Voluntary difficult bonus: How does the difficulty raise?)
