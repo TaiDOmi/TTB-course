@@ -66,7 +66,7 @@ Source: _https://terokarvinen.com/trust-to-blockchain/#homework_
 - The correct string was found right away. But why the first letter changed to zero?
 https://bitcoin.stackexchange.com/questions/102414/how-does-solving-a-block-work-in-relation-to-the-first-letter-number-after-the-0
 
-b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
+**b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?**
 
 - micro tomi.txt
 
@@ -76,11 +76,11 @@ b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.
 ![image](https://github.com/user-attachments/assets/3dbc0ec0-f316-4863-ba47-8443c6d22839)
 - The change of just one character in the text file generated a completely different hash. 
 
-c) Hashcat. Install hashcat and test that it works.
+**c) Hashcat. Install hashcat and test that it works.**
 
 Installed and tested while summarizing the instructions on page https://terokarvinen.com/2022/cracking-passwords-with-hashcat/. Screens and workflow in the summary.
 
-d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3
+**d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3**
 
 Source: _https://terokarvinen.com/2022/cracking-passwords-with-hashcat/_
 
@@ -90,7 +90,7 @@ Source: _https://terokarvinen.com/2022/cracking-passwords-with-hashcat/_
 - 
 ![image](https://github.com/user-attachments/assets/7219b533-1e20-4b3a-bda4-485ed4fe34c0)
 
-e) How can you make a password that's protected against a dictionary attack?
+**e) How can you make a password that's protected against a dictionary attack?**
 
 My own pundering before using sources: Use a good password. e.g. a word that does not mean anything, Adding numbers and special characters to a password. 
 
@@ -99,7 +99,7 @@ From the source: _https://www.csoonline.com/article/569677/what-is-a-dictionary-
 - Don't reuse the password
 - You can also use a passphrase (practically impossible to guess) like 'I want to be the best hacker in the world' - '! want TO b3 th3 B3st Hack3r !n th3 W0rld'.
 
-j) John. Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. See Karvinen 2023 Crack File Password With John.
+**j) John. Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. See Karvinen 2023 Crack File Password With John.**
 
 Source: _https://terokarvinen.com/2023/crack-file-password-with-john/_
 
@@ -132,7 +132,8 @@ Download & Compile John the Ripper, Jumbo version
 
 ![image](https://github.com/user-attachments/assets/25943b6d-6ef4-43d8-a3b1-e018b76b9dba)
 
-k) Crack file password with John.
+**k) Crack file password with John.**
+
 Source: _https://terokarvinen.com/2023/crack-file-password-with-john/_
 Password Protected ZIP
 
