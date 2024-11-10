@@ -125,8 +125,36 @@ Download & Compile John the Ripper, Jumbo version
 
 ![image](https://github.com/user-attachments/assets/de2c436f-c033-4fb5-b5c2-b5a0ec8e686a)
 
+- Many new executable in the run -folder:
 
+- ![image](https://github.com/user-attachments/assets/5cd051fc-260e-49b1-a026-6a06f997e89c)
 
+- Run John
+
+![image](https://github.com/user-attachments/assets/25943b6d-6ef4-43d8-a3b1-e018b76b9dba)
+
+Password Protected ZIP
+
+- $ 'wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip'
+- Try to open:
+
+  ![image](https://github.com/user-attachments/assets/e3fd404d-c1fd-4b7d-957a-9c3459507a98)
+
+- Crack ZIP Password
+- Extract the hash from the zip-file
+- $ '$HOME/hashed/john/run/zip2john tero.zip >tero.zip.hash'
+
+![image](https://github.com/user-attachments/assets/08d9344b-ad91-4328-b606-5407ed3d0181)
+
+- Run a dictionary atack against the created hash:
+- $ '$HOME/hashed/john/run/john tero.zip.hash'
+  
+![image](https://github.com/user-attachments/assets/5f1cd93a-4397-478c-9d54-82f66475b525)
+
+- The password is 'butterfly'
+- Unzip and open the content of the file:
+
+![image](https://github.com/user-attachments/assets/8319315c-42de-465b-a59b-6618a3b68583)
 
 
 k) Crack file password with John.
