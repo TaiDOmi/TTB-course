@@ -92,15 +92,40 @@ Source: _https://terokarvinen.com/2022/cracking-passwords-with-hashcat/_
 
 e) How can you make a password that's protected against a dictionary attack?
 
-My own pundering before using sources:
-- By using a good password. e.g. a word that does not mean anything, Adding numbers and special characters to a password. 
+My own pundering before using sources: Use a good password. e.g. a word that does not mean anything, Adding numbers and special characters to a password. 
 
+From the source: _https://www.csoonline.com/article/569677/what-is-a-dictionary-attack-and-how-you-can-easily-stop-them.html_
 - Use unique passwords which is a combination of random words, symbols and numbers.
 - Don't reuse the password
 - You can also use a passphrase (practically impossible to guess) like 'I want to be the best hacker in the world' - '! want TO b3 th3 B3st Hack3r !n th3 W0rld'.
-Source: _https://www.csoonline.com/article/569677/what-is-a-dictionary-attack-and-how-you-can-easily-stop-them.html_
 
 j) John. Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. See Karvinen 2023 Crack File Password With John.
+
+Source: _https://terokarvinen.com/2023/crack-file-password-with-john/_
+
+Cracking a ZIP archive password.
+- $ sudo apt-get update
+- In the instructions there was a following commnad for installing tools and libraries: 
+  - $ 'sudo apt-get -y install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget'
+
+![image](https://github.com/user-attachments/assets/522b2c95-8f69-4349-8a5b-36ace2e64b50)
+
+  - I had to remove 'zlib-gst' from the command because it was not found. Without it installation was ok. Let's see if it's possbile to do the task without it. 
+
+Download & Compile John the Ripper, Jumbo version
+- $ 'git clone --depth=1 https://github.com/openwall/john.git'
+  
+![image](https://github.com/user-attachments/assets/9de9eb2f-e790-4d30-8e41-77a3e5793d4b)
+
+- $ 'cd john/src/'	
+- $ './configure'
+
+- $ 'make -s clean && make -sj4'
+- Let's see if we get any warnings regarding 'zlib-gst' during compilation. -> No warnings regarding zlib-gst. There were other warnings but they don't seem to be important.
+
+![image](https://github.com/user-attachments/assets/de2c436f-c033-4fb5-b5c2-b5a0ec8e686a)
+
+
 
 
 
