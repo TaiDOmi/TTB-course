@@ -78,15 +78,30 @@ b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.
 
 c) Hashcat. Install hashcat and test that it works.
 
-
+Installed and tested while summarizing the instructions on page https://terokarvinen.com/2022/cracking-passwords-with-hashcat/. Screens and workflow in the summary.
 
 d) Dictionary attack. Crack this hash: 21232f297a57a5a743894a0e4a801fc3
 
+Source: _https://terokarvinen.com/2022/cracking-passwords-with-hashcat/_
+
+- Cracked the hash with Hashcat
+  - $ 'hashcat -m 0 '21232f297a57a5a743894a0e4a801fc3' rockyou.txt -o solved'
+- The hash was 'admin' (I used the same file as with the previous hash so there are two rows in the file)
+- 
+![image](https://github.com/user-attachments/assets/7219b533-1e20-4b3a-bda4-485ed4fe34c0)
 
 e) How can you make a password that's protected against a dictionary attack?
 
+My own pundering before using sources:
+- By using a good password. e.g. a word that does not mean anything, Adding numbers and special characters to a password. 
+
+- Use unique passwords which is a combination of random words, symbols and numbers.
+- Don't reuse the password
+- You can also use a passphrase (practically impossible to guess) like 'I want to be the best hacker in the world' - '! want TO b3 th3 B3st Hack3r !n th3 W0rld'.
+Source: _https://www.csoonline.com/article/569677/what-is-a-dictionary-attack-and-how-you-can-easily-stop-them.html_
 
 j) John. Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. See Karvinen 2023 Crack File Password With John.
+
 
 
 k) Crack file password with John.
