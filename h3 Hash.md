@@ -119,7 +119,6 @@ Download & Compile John the Ripper, Jumbo version
 
 - $ 'cd john/src/'	
 - $ './configure'
-
 - $ 'make -s clean && make -sj4'
 - Let's see if we get any warnings regarding 'zlib-gst' during compilation. -> No warnings regarding zlib-gst. There were other warnings but they don't seem to be important.
 
@@ -133,6 +132,8 @@ Download & Compile John the Ripper, Jumbo version
 
 ![image](https://github.com/user-attachments/assets/25943b6d-6ef4-43d8-a3b1-e018b76b9dba)
 
+k) Crack file password with John.
+Source: _https://terokarvinen.com/2023/crack-file-password-with-john/_
 Password Protected ZIP
 
 - $ 'wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip'
@@ -156,5 +157,3 @@ Password Protected ZIP
 
 ![image](https://github.com/user-attachments/assets/8319315c-42de-465b-a59b-6618a3b68583)
 
-
-k) Crack file password with John.
