@@ -122,7 +122,7 @@ Tried to find the hash -mode to match the hash:
 - password was '12345'
 ![image](https://github.com/user-attachments/assets/4279536b-27d9-4c4b-bcb9-67fb84ed612a)
 
-- 
+- Hash rate was slower than with the hash used in 'd' 
 
 **j) John. Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. See Karvinen 2023 Crack File Password With John.**
 
