@@ -64,7 +64,14 @@ Source: _https://terokarvinen.com/trust-to-blockchain/#homework_
 ![image](https://github.com/user-attachments/assets/8381e282-8566-4430-a77c-84835b4c63e8)
 
 - The correct string was found right away. But why the first letter changed to zero?
-https://bitcoin.stackexchange.com/questions/102414/how-does-solving-a-block-work-in-relation-to-the-first-letter-number-after-the-0
+- It seems that you just have to try to change one character at a time through trial and error.
+- One way would be adding a nonce (number) to the string as long as you get the 0 to the start.
+- Bitcoin also uses SHA-256 algorithm
+- I tried to get more zeros to the start of the hash by adding numbers to the end of the sting
+  - 'Hello Molly16' hash is 00F1A302954B61CC625368A2FC46BDA5F0D938DB8EB6190CCE94EA8FD6003097
+  - I could not make three zeros
+  - The difficulty increases exponentially e.g. fize leading zeros would need 2 million attempts when adding nonces to string "hello world!" ("world!2030350" hash is 000009B3111CB851956ED3EBDA92B68074AA462B2AC3C82B469BBB36E4D2CC21)
+Source: https://blog.robertsj.com/proof-of-work/
 
 **b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?**
 
@@ -74,7 +81,7 @@ https://bitcoin.stackexchange.com/questions/102414/how-does-solving-a-block-work
 - Changed one letter ('p' to 's') in the file: ![image](https://github.com/user-attachments/assets/c40f85eb-5a70-4cd6-b63d-d52cccd862e2)
 
 ![image](https://github.com/user-attachments/assets/3dbc0ec0-f316-4863-ba47-8443c6d22839)
-- The change of just one character in the text file generated a completely different hash. 
+- The change of just one character in the text file generated a completely different hash.
 
 **c) Hashcat. Install hashcat and test that it works.**
 
