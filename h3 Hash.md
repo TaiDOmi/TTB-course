@@ -106,6 +106,24 @@ From the source: _https://www.csoonline.com/article/569677/what-is-a-dictionary-
 - Don't reuse the password
 - You can also use a passphrase (practically impossible to guess) like 'I want to be the best hacker in the world' - '! want TO b3 th3 B3st Hack3r !n th3 W0rld'.
 
+**f) Voluntary: Two minute job. Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu . This subtask d does not require actually cracking the hash, just trying it and commenting on the hash rate.**
+
+Source: _https://terokarvinen.com/2022/cracking-passwords-with-hashcat/_
+
+Tried to find the hash -mode to match the hash:
+
+![image](https://github.com/user-attachments/assets/f6316ded-ebaf-4594-9a1a-3aed9e96f105)
+
+- Chose the mode 3200: $ 'hashcat -m 3200 '$2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu' rockyou.txt -o solved' 
+![image](https://github.com/user-attachments/assets/9a73310a-fa0e-48df-bce9-678fc031da42)
+
+![image](https://github.com/user-attachments/assets/86bd6a44-25c5-4011-8946-d13eec137e30)
+
+- password was '12345'
+![image](https://github.com/user-attachments/assets/4279536b-27d9-4c4b-bcb9-67fb84ed612a)
+
+- 
+
 **j) John. Install Jumbo John (John the Ripper, open source Jumbo version). Compile it from source code as needed. See Karvinen 2023 Crack File Password With John.**
 
 Source: _https://terokarvinen.com/2023/crack-file-password-with-john/_
