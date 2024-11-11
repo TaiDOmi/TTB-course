@@ -94,7 +94,7 @@ Source: _https://terokarvinen.com/2022/cracking-passwords-with-hashcat/_
 - Cracked the hash with Hashcat
   - $ 'hashcat -m 0 '21232f297a57a5a743894a0e4a801fc3' rockyou.txt -o solved'
 - The hash was 'admin' (I used the same file as with the previous hash so there are two rows in the file)
-- 
+
 ![image](https://github.com/user-attachments/assets/7219b533-1e20-4b3a-bda4-485ed4fe34c0)
 
 **e) How can you make a password that's protected against a dictionary attack?**
