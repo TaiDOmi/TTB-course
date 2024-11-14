@@ -22,4 +22,6 @@ Multifactor authentication
 - have been hacked many times but there are multiple that are really hard to hack
 - SSRF connect one of the contaners and then the internal service asks the permit and other internal systems think that the call is from an internal source.
 
- 
+Customer service security protocols (Juha-Matti Marjamaa)
+
+
