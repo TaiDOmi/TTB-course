@@ -1,8 +1,8 @@
-## h3 Hash
+# h3 Hash
 
 _You'll use hashes for fingerprinting files, protecting passwords and as Bitcoin puzzles. You'll also take the role of the attacker, and crack some hashes with a well known tool, Hashcat._
 
-# x) Read and summarize (with some bullet points)
+## x) Read and summarize (with some bullet points)
 Source: _Schneier B. 2015. Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition. Wiley._
 
 2.3 2.3 One-way Fuctions" and "2.4 One-Way Hash Functions
