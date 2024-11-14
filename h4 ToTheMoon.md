@@ -1,13 +1,18 @@
 # h4 To The Moon!
 
 ## x) Read and summarize (with some bullet points)
-Nakamoto 2008: Bitcoin: A Peer-to-Peer Electronic Cash System (A colored HTML version), chapters
-1 Introduction
-2 Transactions
-3 Timestamp Server
-4 Proof-of-Work
-5 Network
-6 Incentive
+_Nakamoto 2008: Bitcoin: A Peer-to-Peer Electronic Cash System (A colored HTML version), chapters_
+
+Source: _https://git.dhimmel.com/bitcoin-whitepaper/_
+
+**1 Introduction**
+
+
+**2 Transactions**
+**3 Timestamp Server**
+**4 Proof-of-Work**
+**5 Network**
+**6 Incentive**
 
 ## a) Wallet. 
 _Create a BitCoin testnet wallet._
