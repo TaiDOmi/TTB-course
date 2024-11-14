@@ -29,6 +29,8 @@ Source: _https://git.dhimmel.com/bitcoin-whitepaper/_
 ## a) Wallet. 
 _Create a BitCoin testnet wallet._
 
+- $ sudo apt-get 
+
 ## b) Faucet. 
 _Get worthless fake money from a testnet Bitcoin faucet._
 
