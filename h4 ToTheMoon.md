@@ -6,13 +6,25 @@ _Nakamoto 2008: Bitcoin: A Peer-to-Peer Electronic Cash System (A colored HTML v
 Source: _https://git.dhimmel.com/bitcoin-whitepaper/_
 
 **1 Introduction**
+- Commerce on the Internet suffers from the weaknesses of trust based model (Financial institutionshandling the payments)
+  - Not possible to make non-reversible transactions
+  - 
 
 
 **2 Transactions**
+
+
 **3 Timestamp Server**
+
+
 **4 Proof-of-Work**
+
+
 **5 Network**
+
+
 **6 Incentive**
+
 
 ## a) Wallet. 
 _Create a BitCoin testnet wallet._
