@@ -24,4 +24,10 @@ Multifactor authentication
 
 Customer service security protocols (Juha-Matti Marjamaa)
 
+Many times people responsible for physical security are 
+different people than those responsible for information security.
+
+USB HID (human interface device)
+
+
 
