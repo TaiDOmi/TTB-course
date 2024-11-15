@@ -68,6 +68,21 @@ _Critically comment on Honest Ads: If Cryptocurrency Was Honest (Video, about 5 
 Identify and list arguments made. Provide commentary to support and challenge each of the claims. 
 If you can, provide references or real life examples to your claims. (This task does not require tests with a computer.)_
 
+Source: _https://www.youtube.com/watch?v=GUs5y9leCyA_
+
+- Computer cash is easy to lose, volatile and not good for the environment
+- Cannot be exchanged for most of goods and services
+- Roge coin is created by computers solving needlessly complicated math problems using more power than Switzerland.
+- Real money will become worthless when government collapses but Roge coin will remain its value as long as there is a talk about it in the Internet.
+- Your money is yours forever unless you give them to a scammer, or get hacked, or the hard-drive where your walllet is fails, or forget your password.
+-  Common purchase drugs and sex
+-  very volatile: Can triple its value overnight or lose all its value if someone with an influence tweets about it, or a country bans it.
+-  It's money that should be hoarded forever
+-  A cult
+-  Most of the Roge coin has already been mined and need a lot of CPU power to mine
+-  
+
+
 
 
 
