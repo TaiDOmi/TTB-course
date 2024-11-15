@@ -45,6 +45,8 @@ Source: _https://git.dhimmel.com/bitcoin-whitepaper/_
 ## a) Wallet. 
 _Create a BitCoin testnet wallet._
 
+Source: _https://coinfaucet.eu/en/btc-testnet/_
+
 - $ sudo apt-get 
 
 ## b) Faucet. 
