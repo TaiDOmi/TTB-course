@@ -45,12 +45,29 @@ Source: _https://git.dhimmel.com/bitcoin-whitepaper/_
 ## a) Wallet. 
 _Create a BitCoin testnet wallet._
 
-Source: _https://coinfaucet.eu/en/btc-testnet/_
+Source: _https://terokarvinen.com/trust-to-blockchain/#homework_
 
-- $ sudo apt-get 
+- Update apt-get
+  - $ sudo apt-get update
+- Install a coin wallet (Electrum)
+  - $ sudo apt-get install electrum; electrum --testnet # from memory
+  - Name of the wallet "Tomitest_wallet"
+  - Created a standard wallet without a multi-factor authentication
+  - Selected "Create a new seed"
+  - Seed for the test wallet (no real money so no risk of putting it here):
+![image](https://github.com/user-attachments/assets/9940ab05-609d-408e-85c1-a15c98b1c15b)
+  - Wallet created
+![image](https://github.com/user-attachments/assets/27abb895-3e70-4126-bbcf-7a3f22a3bf08)
+
+
+
+
+
 
 ## b) Faucet. 
 _Get worthless fake money from a testnet Bitcoin faucet._
+
+_https://coinfaucet.eu/en/btc-testnet/_
 
 ## c) Giveway. 
 _Move money to another Bitcoin wallet. Choose an amount where the last two digists are 73._
