@@ -59,18 +59,22 @@ Source: _https://terokarvinen.com/trust-to-blockchain/#homework_
   - Wallet created
 ![image](https://github.com/user-attachments/assets/27abb895-3e70-4126-bbcf-7a3f22a3bf08)
 
-
-
-
-
-
 ## b) Faucet. 
 _Get worthless fake money from a testnet Bitcoin faucet._
 
-_https://coinfaucet.eu/en/btc-testnet/_
+Sources: _https://bitcoinfaucet.uo1.net_, _https://coinfaucet.eu/en/btc-testnet/_
+
+- Copied the wallet address
+![image](https://github.com/user-attachments/assets/5437afcf-0493-4e44-95dd-194d842c8cb1)
+- Got money from coinfaucet (https://coinfaucet.eu/en/btc-testnet): 
+![image](https://github.com/user-attachments/assets/489357f7-5491-4c0a-92e3-5c111bc9b815)
+- Money in the wallet:
+![image](https://github.com/user-attachments/assets/9aadeda1-2075-46b5-a3c1-10571b928220)
 
 ## c) Giveway. 
 _Move money to another Bitcoin wallet. Choose an amount where the last two digists are 73._
+
+
 
 ## d) Recycle. 
 _Move the testnet money back to the same faucet you got it from._
