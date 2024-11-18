@@ -106,11 +106,13 @@ _Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain
 You only need to analyze the block information and one sample transaction, as a block can contain many transactions. 
 Voluntary bonus: Use a transaction that's interesting, such as one related to a crime or other unusual event._
 
-Sources: _https://blockexplorer.one/, https://www.coinbase.com/learn/crypto-basics/bitcoin-block-reward-block-size-block-time-whats-the-difference_
+Sources: _https://blockexplorer.one/, https://www.coinbase.com/learn/crypto-basics/bitcoin-block-reward-block-size-block-time-whats-the-difference, https://www.ledger.com/academy/glossary/_
 
 - Selected the latest block transaction on the bBlock Explorer for analyzation.
 ![image](https://github.com/user-attachments/assets/17231466-6118-4f37-b4cc-0de09492f1cd)
 
+Block: 000000000000000000005ecb9df0be545ad85e74fd42545e110f8527a7a3fd43
+Block Height: 870861
 - Block size (1674430 bytes):
   - The amount of data that can be stored in a block. A block is a set of bicoin transactions for a time-period. The zize is normally around 2 MBs (up to 4 MBs) so this a a smaller block than average.
 - Difficulty (101.65 TH):
@@ -122,6 +124,9 @@ Sources: _https://blockexplorer.one/, https://www.coinbase.com/learn/crypto-basi
 - Block Hash (000000000000000000005ecb9df0be545ad85e74fd42545e110f8527a7a3fd43):
   - The unique reference for a block in a blockchain. 
 - Confirmations (1)
+  - A proof by the blockchain network that the transaction is legitimate.
+- Merkle Root (9130213be483ff12be0b655acbf7366381644669caa239fb007b6714df39b2f3)
+  - A hash tree structure where the root hash is stored in the block header and verifies the validity of including this block in the blockchain. 
 
 
 ## f) RogeCoin. 
