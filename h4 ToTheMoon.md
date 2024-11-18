@@ -70,19 +70,59 @@ Sources: _https://bitcoinfaucet.uo1.net_, _https://coinfaucet.eu/en/btc-testnet/
 ![image](https://github.com/user-attachments/assets/489357f7-5491-4c0a-92e3-5c111bc9b815)
 - Money in the wallet:
 ![image](https://github.com/user-attachments/assets/9aadeda1-2075-46b5-a3c1-10571b928220)
+- Changed unit from mBTC to BTC
+![image](https://github.com/user-attachments/assets/431b753c-2880-46cc-bfb2-de13e058c1e0)
 
 ## c) Giveway. 
-_Move money to another Bitcoin wallet. Choose an amount where the last two digists are 73._
+_Move money to another Bitcoin wallet. Choose an amount where the last two digits are 73._
 
-
+- Establish another wallet from File/New "Tomitest_wallet_2"
+![image](https://github.com/user-attachments/assets/b2a84ed7-1763-4ab3-8376-b06dc4b43cd4)
+- Move money from Tomitest_wallet to Tomitest_wallet_2
+![image](https://github.com/user-attachments/assets/1005d422-cbe6-450d-991b-614c5d539b0d)
+- Not enough funds
+![image](https://github.com/user-attachments/assets/31519589-8fac-47c0-86f8-0c94e98f6c50)
+- Changed to mempool and tried again - mempool min fee not met
+![image](https://github.com/user-attachments/assets/a2e0f37a-aa8b-43cb-bb9c-b286535a2617)
+- 2nd try with bigger sums
+![image](https://github.com/user-attachments/assets/f859e97c-c7bb-4cc4-9e97-a041ae58bfda)
+- Changed Fee rate to Static: min
+![image](https://github.com/user-attachments/assets/3f1deda8-466f-421e-8628-3513cebb6baa)
+- 
+- Tried to get more money from _cryptopump.info/_
+![image](https://github.com/user-attachments/assets/b5daaf08-bb50-40a5-a114-34ad2c5172f7)
+![image](https://github.com/user-attachments/assets/19ffffb8-45e8-41d4-9a53-4c699bb06b39)
+- It seems to be hard to get even test Bitcoins.
+- I have to wait 11 hours to get more money from coinfaucet.
+- 
 
 ## d) Recycle. 
 _Move the testnet money back to the same faucet you got it from._
+
+Cannot do because I could not send money to the second wallet.
 
 ## e) Explorer. 
 _Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain what each value and field means. 
 You only need to analyze the block information and one sample transaction, as a block can contain many transactions. 
 Voluntary bonus: Use a transaction that's interesting, such as one related to a crime or other unusual event._
+
+Sources: _https://blockexplorer.one/, https://www.coinbase.com/learn/crypto-basics/bitcoin-block-reward-block-size-block-time-whats-the-difference_
+
+- Selected the latest block transaction on the bBlock Explorer for analyzation.
+![image](https://github.com/user-attachments/assets/17231466-6118-4f37-b4cc-0de09492f1cd)
+
+- Block size (1674430 bytes):
+  - The amount of data that can be stored in a block. A block is a set of bicoin transactions for a time-period. The zize is normally around 2 MBs (up to 4 MBs) so this a a smaller block than average.
+- Difficulty (101.65 TH):
+- Received Time: Time when the transaction was received by the payee.
+- Rewards (3,125 BTC)
+  - A reward for miners for validating blocks of transaction (Miners contribute computing power to maintain the Bitcoin blockchain)- The reward halves about every four years (or every 210,000 blocks). 
+- Total Transactions (3,357) :
+  - There are 3357 transacions in the block (average 3990 on 18.11.2024). 
+- Block Hash (000000000000000000005ecb9df0be545ad85e74fd42545e110f8527a7a3fd43):
+  - The unique reference for a block in a blockchain. 
+- Confirmations (1)
+
 
 ## f) RogeCoin. 
 _Critically comment on Honest Ads: If Cryptocurrency Was Honest (Video, about 5 minutes). 
@@ -107,3 +147,4 @@ Source: _https://www.youtube.com/watch?v=GUs5y9leCyA_
 
 
 
+3
