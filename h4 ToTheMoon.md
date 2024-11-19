@@ -141,9 +141,16 @@ _Critically comment on Honest Ads: If Cryptocurrency Was Honest (Video, about 5 
 Identify and list arguments made. Provide commentary to support and challenge each of the claims. 
 If you can, provide references or real life examples to your claims. (This task does not require tests with a computer.)_
 
-Source: _https://www.youtube.com/watch?v=GUs5y9leCyA_
+Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.com/biggest-mistakes-crypto-investors-make-8712112, https://unu.edu/press-release/un-study-reveals-hidden-environmental-impacts-bitcoin-carbon-not-only-harmful-product_
 
-- Computer cash is easy to lose, volatile and not good for the environment
+- Computer cash is easy to lose and volatile
+  - You have to have a basic knowledge about crypto currencies otherwise it's easy to lose money.
+  - Also cryptos are very volatile so it's easy to lose huge amounts is a short time.  
+  - It's easy to lose your whole wallet if you forget your seed or the password of the wallet.
+  - In a case of mistake (E.g. typing wrong amount or wrong wallet address) it's impossible to reverse the payment.
+- Cryptos are not good for the environment
+  - Mining cryptocurrencies has severe impacts on climate, water and land.
+  - The consume of electricity is huge (173,42 terawatts 2020-2021). If mining bitcoin was a country it would be the 27th biggest energy consumer that year. And this was only Bitcoin.
 - Cannot be exchanged for most of goods and services
 - Roge coin is created by computers solving needlessly complicated math problems using more power than Switzerland.
 - Real money will become worthless when government collapses but Roge coin will remain its value as long as there is a talk about it in the Internet.
