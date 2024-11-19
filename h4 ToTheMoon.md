@@ -106,16 +106,18 @@ _Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain
 You only need to analyze the block information and one sample transaction, as a block can contain many transactions. 
 Voluntary bonus: Use a transaction that's interesting, such as one related to a crime or other unusual event._
 
-Sources: _https://blockexplorer.one/, https://www.coinbase.com/learn/crypto-basics/bitcoin-block-reward-block-size-block-time-whats-the-difference, https://www.ledger.com/academy/glossary/_
+Sources: _https://blockexplorer.one/, https://www.coinbase.com/learn/crypto-basics/bitcoin-block-reward-block-size-block-time-whats-the-difference, https://www.ledger.com/academy/glossary/, https://www.investopedia.com/terms_
 
-- Selected the latest block transaction on the bBlock Explorer for analyzation.
+- Selected the latest block transaction on the Block Explorer for analyzation.
 ![image](https://github.com/user-attachments/assets/17231466-6118-4f37-b4cc-0de09492f1cd)
 
 Block: 000000000000000000005ecb9df0be545ad85e74fd42545e110f8527a7a3fd43
-Block Height: 870861
+- Block Height: 870861
+  - Block height tells the number of preceding confirmed blocks in the bitcoin chain. 
 - Block size (1674430 bytes):
   - The amount of data that can be stored in a block. A block is a set of bicoin transactions for a time-period. The zize is normally around 2 MBs (up to 4 MBs) so this a a smaller block than average.
 - Difficulty (101.65 TH):
+  - Tells how difficult it was to mine this block (the number of hashes required to mine the block).  
 - Received Time: Time when the transaction was received by the payee.
 - Rewards (3,125 BTC)
   - A reward for miners for validating blocks of transaction (Miners contribute computing power to maintain the Bitcoin blockchain)- The reward halves about every four years (or every 210,000 blocks). 
