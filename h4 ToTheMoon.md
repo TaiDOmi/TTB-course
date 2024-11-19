@@ -128,8 +128,13 @@ Block: 000000000000000000005ecb9df0be545ad85e74fd42545e110f8527a7a3fd43
 - Confirmations (1)
   - A proof by the blockchain network that the transaction is legitimate.
 - Merkle Root (9130213be483ff12be0b655acbf7366381644669caa239fb007b6714df39b2f3)
-  - A hash tree structure where the root hash is stored in the block header and verifies the validity of including this block in the blockchain. 
+  - A hash tree structure where the root hash is stored in the block header and verifies the validity of including this block in the blockchain.
+ 
+Transaction aa06d182942e58ce15cd5b27b58189b8704a01c140d5abce7e66935542105249
 
+![image](https://github.com/user-attachments/assets/54d25060-8fdb-4dd7-8056-5ae10bd2749a)
+
+- Transaction contains several transactions from different wallets. The total sum of the transaction is 0.04714809 Bitcoins ($ 4319,89) to two wallets (0.00074761 BTC & 0.04540048 BTC). 
 
 ## f) RogeCoin. 
 _Critically comment on Honest Ads: If Cryptocurrency Was Honest (Video, about 5 minutes). 
