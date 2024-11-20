@@ -168,9 +168,9 @@ Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.
     - Cryptos are pretty much safe from hacking because of the blockchain technology but wallets and crypto exchanges can be attacked (like Mt. Gox 2014: 850.000 Bitcoins stolen).
     - In a theory if one would get over the half of networks mining power (51 %  attack), the transaction history could be modified.
     - In an extreme scenario of global power outage and networkd shutdown would also make crypto system to fail but still your cryptos would be still yours when power goes back.
--  Cryptos are very volatile: Can triple its value overnight or lose all its value if someone with an influence tweets about it, or a country bans it.
-  - Not true completely
-  - While cryptos are very volatile, a crypto will not lose all its value even if someone with a big influence tweets about it. It can have of course impact to the price.
+- Cryptos are very volatile: Can triple its value overnight or lose all its value if someone with an influence tweets about it, or a country bans it.
+  -  Not true completely
+    -  While cryptos are very volatile, a crypto will not lose all its value even if someone with a big influence tweets about it. It can have of course impact to the price.
 -  It's money that should be hoarded forever
     - Not possible to predict what will happen to the value of a certain coin in the future.
     - Like any investing instrument I think you should have a strategy about how long will you hold it. What is the price that makes you happy and let's you live financially free life.
