@@ -141,18 +141,26 @@ _Critically comment on Honest Ads: If Cryptocurrency Was Honest (Video, about 5 
 Identify and list arguments made. Provide commentary to support and challenge each of the claims. 
 If you can, provide references or real life examples to your claims. (This task does not require tests with a computer.)_
 
-Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.com/biggest-mistakes-crypto-investors-make-8712112, https://unu.edu/press-release/un-study-reveals-hidden-environmental-impacts-bitcoin-carbon-not-only-harmful-product_
+Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.com/biggest-mistakes-crypto-investors-make-8712112, https://unu.edu/press-release/un-study-reveals-hidden-environmental-impacts-bitcoin-carbon-not-only-harmful-product, https://www.investopedia.com/terms/c/cryptocurrency.asp, https://www.investopedia.com/what-can-you-buy-with-bitcoin-5179592_
 
 - Computer cash is easy to lose and volatile
+  - True if the user has not enough information about dealing with cryptos. 
   - You have to have a basic knowledge about crypto currencies otherwise it's easy to lose money.
   - Also cryptos are very volatile so it's easy to lose huge amounts is a short time.  
   - It's easy to lose your whole wallet if you forget your seed or the password of the wallet.
   - In a case of mistake (E.g. typing wrong amount or wrong wallet address) it's impossible to reverse the payment.
 - Cryptos are not good for the environment
-  - Mining cryptocurrencies has severe impacts on climate, water and land.
-  - The consume of electricity is huge (173,42 terawatts 2020-2021). If mining bitcoin was a country it would be the 27th biggest energy consumer that year. And this was only Bitcoin.
+  - True
+    - Mining cryptocurrencies has severe impacts on climate, water and land.
+    - Most of the electricity needed to mine cryptos is produced with fossil energy sources. To offset the carbon footprint 3,9 billion trees should be planted.
+    - The electricity production environmental impact depends still highly on how energy is produced and some countries (like Norway, England,Thailand) take also activities to minimize coin mining footprint.
 - Cannot be exchanged for most of goods and services
-- Roge coin is created by computers solving needlessly complicated math problems using more power than Switzerland.
+  - Not completely true
+    - While many retailers do not accept receiving cryptos as a payment, you can preload a crypto credit card with a crypto currency and use it for purchases like a normal debit card (retailer receives fiat money). 
+    - Crypto was created for daily purchases and transactions.
+- Crypto coins are created by computers solving needlessly complicated math problems using more power than Switzerland.
+  - True
+    - The consume of electricity is huge (173,42 terawatts 2020-2021). If mining bitcoin was a country it would be the 27th biggest energy consumer that year. And this was only Bitcoin.
 - Real money will become worthless when government collapses but Roge coin will remain its value as long as there is a talk about it in the Internet.
 - Your money is yours forever unless you give them to a scammer, or get hacked, or the hard-drive where your walllet is fails, or forget your password.
 -  Common purchase drugs and sex
