@@ -161,17 +161,15 @@ Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.
 - Crypto coins are created by computers solving needlessly complicated math problems using more power than Switzerland.
   - True
     - The consume of electricity is huge (173,42 terawatts 2020-2021). If mining bitcoin was a country it would be the 27th biggest energy consumer that year. And this was only Bitcoin.
-- Real money will become worthless when government collapses but Roge coin will remain its value as long as there is a talk about it in the Internet.
+- A crypto coin will remain its value as long as there is a talk about it in the Internet.
+  - Not true
+    - Not possbile to predict what will happen to the value in the future.
+    - 
 - Your money is yours forever unless you give them to a scammer, or get hacked, or the hard-drive where your walllet is fails, or forget your password.
--  Common purchase drugs and sex
--  very volatile: Can triple its value overnight or lose all its value if someone with an influence tweets about it, or a country bans it.
+  - Most likely true
+    - Cryptos are pretty much safe from hacking because of the blockchain technology but wallets and 
+-  Cryptos are very volatile: Can triple its value overnight or lose all its value if someone with an influence tweets about it, or a country bans it.
+  - True 
 -  It's money that should be hoarded forever
--  A cult
 -  Most of the Roge coin has already been mined and need a lot of CPU power to mine
--  
-
-
-
-
-
-3
+  -  
