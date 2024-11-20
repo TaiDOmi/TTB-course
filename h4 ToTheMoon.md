@@ -141,7 +141,7 @@ _Critically comment on Honest Ads: If Cryptocurrency Was Honest (Video, about 5 
 Identify and list arguments made. Provide commentary to support and challenge each of the claims. 
 If you can, provide references or real life examples to your claims. (This task does not require tests with a computer.)_
 
-Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.com/biggest-mistakes-crypto-investors-make-8712112, https://unu.edu/press-release/un-study-reveals-hidden-environmental-impacts-bitcoin-carbon-not-only-harmful-product, https://www.investopedia.com/terms/c/cryptocurrency.asp, https://www.investopedia.com/what-can-you-buy-with-bitcoin-5179592_
+Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.com/biggest-mistakes-crypto-investors-make-8712112, https://unu.edu/press-release/un-study-reveals-hidden-environmental-impacts-bitcoin-carbon-not-only-harmful-product, https://www.investopedia.com/terms/c/cryptocurrency.asp, https://www.investopedia.com/what-can-you-buy-with-bitcoin-5179592, https://www.bitpanda.com/academy/en/lessons/can-a-cryptocurrency-like-bitcoin-get-hacked-or-shut-down/_
 
 - Computer cash is easy to lose and volatile
   - True if the user has not enough information about dealing with cryptos. 
@@ -162,14 +162,15 @@ Sources: _https://www.youtube.com/watch?v=GUs5y9leCyA, https://www.investopedia.
   - True
     - The consume of electricity is huge (173,42 terawatts 2020-2021). If mining bitcoin was a country it would be the 27th biggest energy consumer that year. And this was only Bitcoin.
 - A crypto coin will remain its value as long as there is a talk about it in the Internet.
-  - Not true
-    - Not possbile to predict what will happen to the value in the future.
-    - 
+  - The value of a crypto currency is determined by demand and supply not the amount of talk which can be either positive or negative.
 - Your money is yours forever unless you give them to a scammer, or get hacked, or the hard-drive where your walllet is fails, or forget your password.
   - Most likely true
-    - Cryptos are pretty much safe from hacking because of the blockchain technology but wallets and 
+    - Cryptos are pretty much safe from hacking because of the blockchain technology but wallets and crypto exchanges can be attacked (like Mt. Gox 2014: 850.000 Bitcoins stolen).
+    - In a theory if one would get over the half of networks mining power (51 %  attack), the transaction history could be modified.
+    - In an extreme scenario of global power outage and networkd shutdown would also make crypto system to fail but still your cryptos would be still yours when power goes back.
 -  Cryptos are very volatile: Can triple its value overnight or lose all its value if someone with an influence tweets about it, or a country bans it.
-  - True 
+  - Not true completely
+  - While cryptos are very volatile, a crypto will not lose all its value even if someone with a big influence tweets about it. It can have of course impact to the price.
 -  It's money that should be hoarded forever
--  Most of the Roge coin has already been mined and need a lot of CPU power to mine
-  -  
+    - Not possible to predict what will happen to the value of a certain coin in the future.
+    - Like any investing instrument I think you should have a strategy about how long will you hold it. What is the price that makes you happy and let's you live financially free life.
