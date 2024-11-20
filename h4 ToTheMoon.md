@@ -99,7 +99,14 @@ _Move money to another Bitcoin wallet. Choose an amount where the last two digit
 ## d) Recycle. 
 _Move the testnet money back to the same faucet you got it from._
 
-Cannot do because I could not send money to the second wallet.
+Trying to donate back the money to coinfaucet.
+- Getting the address
+![image](https://github.com/user-attachments/assets/0f14cc34-8db2-4af1-a3fe-6126cd5da413)
+
+- Cannot do for the same reason I could not send money to the second wallet.
+![image](https://github.com/user-attachments/assets/12e7df43-b6c1-4b50-99f4-5db3dcf315cd)
+
+
 
 ## e) Explorer. 
 _Use a block explorer to analyze a block on the real Bitcoin blockchain. Explain what each value and field means. 
