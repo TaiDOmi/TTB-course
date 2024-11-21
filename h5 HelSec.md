@@ -89,12 +89,103 @@ Standards
 
 I think there protect companies from legal consequences
 
-Questions
 - Incidents in NIS-2 need to be reported to national authorities
 - Notifcations go to ENISA
 - 
 
 ## 19:20 - Heikki ”zokol” Juva - State of Union
+Bought 10.000 worth of electronic consumer things and measured how they apply the regulations
+
+Regulation
+Two regulation projects
+RED Radio Equipment Directive 
+- 18031
+CRA Cyber Resilience Act
+- Technical security reqs
+- Vulnerability handling reqs
+
+Mindmap in QR code 
+
+11/2019 LAunch of the Trafico IoT Cybersecurity label
+1/2022 RED standard work starts
+Q2 2024 CRA standard work starts
+8/2025 RED is enforced
+?/2016 CRA vulneraiblit notification starts
+?/2017 CRA is enforcedd
+
+Testing
+
+Questions
+Hw do devices communicate?
+Devices under testing
+- consumer market
+- connected to internet
+- Popular devices
+- Blackbox testing
+
+Device Classification
+- Device is conected to network?
+- -> RED- part 1 applies
+- Does the device collect perosna info
+- -> RED part 2
+
+Good requirements
+- Vulncoord: Forces companies to establis unerability coordination and reporting to centralizeds authority
+- Input validation
+- Crypto
+- Passwords
+- Content filtering; digital content loaded only from trusted sources - applies to part 2
+
+Some reqs have problems in real life
+- COmpatibility causes problems less security if need to eg. backwards compatibility
+- - Outsourcing security;
+  - Paper-based evaluation; all reqs proven by only documentation but not the device in practice
+Example:
+- Company Eagle make IP cameras
+-  E.g child movement monitoring
+  - Send all collected info to cloud
+  - 1 & 2 classes internet connected and gathers personal info 
+-  EagleSock - Smart sock taht monitors heartrate and saturation etc
+
+RED part 1
+- Software updates are enforced
+- Opened device - is the device storage secure
+- unencrypted files that are not signed
+- No known non-mitigated exploitable vulnerabilities?
+  - 1107 security issues
+- Password are unique or strong? No
+  - No Admin 12345
+Red PArt 2
+- All sensors that ma affect user's privacy are documented? - OK
+  - Clips saved
+- User notified - letting know tat No
+- 3rd party
+  - Gather a lot of info about you and child, names, health info
+- Bypassing GDPR
+  - Should read the legal texts - not in force in EU
+- Deleting all info possible?
+  - All data can be deleted, but no info if info is really deletd from the cloud
+  - Wiped device still had users wifi information
+
+- How do consumers devices communicate
+- Commnication to mostly WEstern countries
+- Most devices use Amazon AWS
+- Most of the data is encrypted though
+- TLS version 1.3 used only little amount 1.2
+- 90 % use TLS and CERT pining
+- 80 % implemeted on baremetal - (no OS) - automatic tools cannot hack
+- 66 & use wifi for communication
+- 90 % are online only temporarily - battery operated devices - only communicate with device when used
+  - Hard to hack because not connected all the time but only for a few seconds time to time
+- 
+Common issues
+- Data is not delerted even if asked
+- Sharing info with 3rd parties
+- Complex manufactuing, even seller does not know how device works
+
+Attribution
+- Finding the actual manufacturer by dumbing firmware
+- googled the prefix and found the company
 
 
 ## 20:20 - Joona "Rinorragi" Immonen - My experiences on Defender External Attack Surface Management
