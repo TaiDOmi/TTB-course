@@ -192,3 +192,7 @@ Quality of cryptography was a very good quality - A happy suprise
 Man in the middle attack does not work with common tools
 
 ## 20:20 - Joona "Rinorragi" Immonen - My experiences on Defender External Attack Surface Management
+
+- About two things
+- Continueous discobery of digital attack surface
+- 
