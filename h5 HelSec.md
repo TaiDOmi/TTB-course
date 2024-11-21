@@ -87,6 +87,12 @@ Standards
 - ETSI - Secure Artificial Intelligence Technical committee
 - NIST -
 
+I think there protect companies from legal consequences
+
+Questions
+- Incidents in NIS-2 need to be reported to national authorities
+- Notifcations go to ENISA
+- 
 
 ## 19:20 - Heikki ”zokol” Juva - State of Union
 
