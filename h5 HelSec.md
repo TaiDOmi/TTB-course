@@ -187,8 +187,8 @@ Attribution
 - Finding the actual manufacturer by dumbing firmware
 - googled the prefix and found the company
 
-Quality of cryptography was a very good quality - happy suprise
+Quality of cryptography was a very good quality - A happy suprise
 
-
+Man in the middle attack does not work with common tools
 
 ## 20:20 - Joona "Rinorragi" Immonen - My experiences on Defender External Attack Surface Management
