@@ -8,7 +8,7 @@ Voluntary bonus: A third one.
 
 ## 18:15 - Jos Helmich - Industrial Cyber Security
 
-Sources: _https://www.enisa.europa.eu/, Chat GPT:"compare the leavel of cybersecurity acts  EU vs US"_
+Sources: _https://www.enisa.europa.eu/, https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en, Chat GPT:"compare the leavel of cybersecurity acts  EU vs US", https://www.paloaltonetworks.com/cyberpedia/what-is-ot-security, CHAT GPT: "what is the difference in office cloud and industry cloud"_
 
 Product security architect in KC cybersecuiry team
 Member in ENISA advisory group
@@ -35,7 +35,8 @@ Advisory group makes suggestions to EU parliament
 
 Industrial EU Directives
 - Machines Directive
-- RED adio Equipment
+- RED - Radio Equipment
+  - A regulatory framework for radio equipment on the market (personal data, safety and health, etc.)
 General EU Laws & Directives
 - GDPR - General Directive Data Protection 
 - NIS-2
@@ -44,7 +45,7 @@ General EU Laws & Directives
 - CRA
 
 US legislative mumbo jumbo maybe not to stay because can be changed by the goverment
-  - Asked ChatGPT What is the differences between cybersecurity acts in EU and US:
+  - I asked ChatGPT about differences between cybersecurity acts in EU and US:
     - EU:
       - Centralized supervision, all EU member states must
       - Broader coverage
@@ -54,18 +55,23 @@ US legislative mumbo jumbo maybe not to stay because can be changed by the gover
       - More caps in coverage in different sectors
       - Voluntary incident reporting, sanctions by sector
    
-SUpplier to the US goverment must fill a CISA attestation form
+Supplier to the US goverment must fill a CISA attestation form
 - Strict form
 - NIS-2
-  - Large impact on organizations requirements
-- NIS-2 requirements are about the organizations' cyber security
+  - Large impact on organizations cybersecurity requirements
 - NIS-2 in Manufacturing
-  - IT Security ()
-  - OT Security (Manufacturing security)  
-Office CLoud and Industrial cloud
+  - IT Security 
+  - OT Security (Operational technology: Hardware and software to control and monitor industrial equiment and processes)
+
+Office Cloud and Industrial cloud
 - Office environments are protected by a firewall
-- Industrial network is protected by two firewalls
-- Industrial zone has no connection to internet - In real life does not happen because need to have VPN
+  - Office workers and general office products
+  - business critical data, secure general data
+- Industrial network is protected by two firewalls (both office and industrial clouds)
+  - Tailored for specific industries (healthcare, manufacturing, finance etc.)
+  - Secure operational data, indstrial workflows, information from systems
+  - Real-time security critical to prevent operational problems
+  - Industrial zone has no connection to internet - In real life does not happen because need to have   VPN
 
 NIS-2 vs CRA
 NIS is aout your organization
