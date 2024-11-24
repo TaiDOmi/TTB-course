@@ -8,35 +8,52 @@ Voluntary bonus: A third one.
 
 ## 18:15 - Jos Helmich - Industrial Cyber Security
 
-Product security architect in KC
+Sources: _https://www.enisa.europa.eu/, Chat GPT:"compare the leavel of cybersecurity acts  EU vs US"_
+
+Product security architect in KC cybersecuiry team
 Member in ENISA advisory group
 
-Here today because of Hero's Quest :) 
+Here today because of Hero's Quest pc game 
+  - I have this game complete in box. :) 
 
 Working on embedded devices in KC 
 - Brake monitoring unit
 - Remote operation station
 - Electronic Crane Unit
+
 ENISA (European Union Agency for Cyber Security)
-- Allocation of FUnds
+- Allocation of Funds
 - Strategic Questions
 - Review Threat Horizon 2030
 - Write papers
   - Cyber Security Act
-  - NIS / NIS-2
+    - Cybersecurity certification schemes to define standards for products, processes and services
+    - To provide security confidence
+  - NIS  (basic security requirements)/ NIS-2 (stricter requirements and supervision)
  
 Advisory group makes suggestions to EU parliament 
 
 Industrial EU Directives
 - Machines Directive
-- RED RAdio Equipment
-General EU LAws & Directives
+- RED adio Equipment
+General EU Laws & Directives
 - GDPR - General Directive Data Protection 
 - NIS-2
+  - Rules and guidelines to mange and mitigate security risks
+  - A national authority in every EU state to oversee the implementation of the directive
 - CRA
 
-US ligislative mumbo jumbo maybe not to stay because can be changed by the goverment
-
+US legislative mumbo jumbo maybe not to stay because can be changed by the goverment
+  - Asked ChatGPT What is the differences between cybersecurity acts in EU and US:
+    - EU:
+      - Centralized supervision, all EU member states must
+      - Broader coverage
+      - Mandatory incident reporting, significant sanctions 
+    - US:
+      - Supervision decentralized to different agencies and state specific laws
+      - More caps in coverage in different sectors
+      - Voluntary incident reporting, sanctions by sector
+   
 SUpplier to the US goverment must fill a CISA attestation form
 - Strict form
 - NIS-2
