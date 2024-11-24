@@ -84,11 +84,11 @@ Questions to supplier:
 - What is the minimal password length
 
 CRA supply chain consequences
-- Question from the customer
+- Questions from the customer
 
-62443 family reqs for industrial cybersecurity
+62443 family requirements for industrial cybersecurity
 
-Security LEvels
+Security Levels
 1. Accidental tourist (accidentally finds something from internet eg)
 2. Normal users ()
 3. Hackers
