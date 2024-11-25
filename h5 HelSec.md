@@ -121,24 +121,27 @@ Standards
 - Standards protect companies from legal consequences
 
 ## 19:20 - Heikki ”zokol” Juva - State of Union
+Sources: _https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en, https://kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/kyberkestavyyssaados-cyber-resilience-act-cra_
+
 Bought 10.000 worth of electronic consumer things and measured how they apply the regulations
 
 Regulation
 Two regulation projects
-RED Radio Equipment Directive 
-- 18031
-CRA Cyber Resilience Act
-- Technical security reqs
-- Vulnerability handling reqs
+RED (Radio Equipment Directive) 
+  - 18031 (Cybersecurity standards for the radio equipment)
+  - Reqs for health, safety, electromagnetic compatibility, and efficient use of the radio frequency spectrum
+CRA (Cyber Resilience Act)
+  - Setting minimum standards of CS to systems of products that can be connected with another product or a network. 
+  - Technical security reqs
+  - Vulnerability handling reqs
 
-Mindmap in QR code 
-
-11/2019 LAunch of the Trafico IoT Cybersecurity label
-1/2022 RED standard work starts
-Q2 2024 CRA standard work starts
-8/2025 RED is enforced
-?/2016 CRA vulneraiblit notification starts
-?/2017 CRA is enforcedd
+- 11/2019 Launch of the Traficom IoT Cybersecurity label
+- 1/2022 RED standard work starts
+- Q2 2024 CRA standard work starts
+- 12/2024 CRA effective
+- 8/2025 RED is enforced
+- 9/2026 CRA vulnerability notification starts (21 month transition period from CRA law effective)
+- 12/2027 CRA is enforced (36 month transition period from CRA law effective) 
 
 Testing
 
