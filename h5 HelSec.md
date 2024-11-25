@@ -125,8 +125,9 @@ Sources: _https://single-market-economy.ec.europa.eu/sectors/electrical-and-elec
 
 Bought 10.000 worth of electronic consumer things and measured how they apply the regulations
 
-Regulation
-Two regulation projects
+
+**Two regulation projects**
+
 RED (Radio Equipment Directive) 
   - 18031 (Cybersecurity standards for the radio equipment)
   - Reqs for health, safety, electromagnetic compatibility, and efficient use of the radio frequency spectrum
@@ -143,71 +144,78 @@ CRA (Cyber Resilience Act)
 - 9/2026 CRA vulnerability notification starts (21 month transition period from CRA law effective)
 - 12/2027 CRA is enforced (36 month transition period from CRA law effective) 
 
-Testing
+**Testing**
 
 Questions
-Hw do devices communicate?
+How do devices communicate?
 Devices under testing
-- consumer market
-- connected to internet
+- Consumer market
+- Connected to internet
 - Popular devices
-- Blackbox testing
+
+Blackbox testing
 
 Device Classification
-- Device is conected to network?
+- Device is connected to network?
 - -> RED- part 1 applies
-- Does the device collect perosna info
-- -> RED part 2
+- Does the device collect personal info?
+- -> RED part 2 applies
 
 Good requirements
-- Vulncoord: Forces companies to establis unerability coordination and reporting to centralizeds authority
-- Input validation
-- Crypto
-- Passwords
-- Content filtering; digital content loaded only from trusted sources - applies to part 2
+- Vulnerability coordination (Vulncoord e-service)
+  - Forces companies to establish vulnerability coordination and reporting to a centralized authority
+  - Target: to ensure that vulnerability info, patches and updates reaches everyone 
+- Inputs are validated
+- Proper cryptography
+- Good passwords
+- Content filtering; digital content loaded only from trusted sources (applies to RED part 2)
 
-Some reqs have problems in real life
-- COmpatibility causes problems less security if need to eg. backwards compatibility
-- - Outsourcing security;
-  - Paper-based evaluation; all reqs proven by only documentation but not the device in practice
+Some requirements have problems in real life
+- Compatibility causes problems
+  - Less security if the device needs to be E.g. backwards compatible
+  - Outsourcing security; Data exposure, complience challenges, loss of control, different laws with data transfer etc.(Source: Chat GPT 'what problems there are in outsourcing cyber security')
+  - Paper-based evaluation; All reqs proven by only documentation but not the device in practice
 Example:
 - Company Eagle make IP cameras
--  E.g child movement monitoring
-  - Send all collected info to cloud
-  - 1 & 2 classes internet connected and gathers personal info 
--  EagleSock - Smart sock taht monitors heartrate and saturation etc
+-  E.g. child movement monitoring
+  - Sends all collected info to a cloud
+  - RED part 1 & part 2 classes (Internet connected and gathers personal info) 
+-  EagleSock - A smart sock that monitors heartrate and saturation etc.
+
+Test results: 
 
 RED part 1
 - Software updates are enforced
-- Opened device - is the device storage secure
-- unencrypted files that are not signed
+- Opened device (Is the device storage secure?)
+  - Unencrypted files that are not signed
 - No known non-mitigated exploitable vulnerabilities?
-  - 1107 security issues
-- Password are unique or strong? No
-  - No Admin 12345
-Red PArt 2
-- All sensors that ma affect user's privacy are documented? - OK
-  - Clips saved
-- User notified - letting know tat No
-- 3rd party
-  - Gather a lot of info about you and child, names, health info
-- Bypassing GDPR
-  - Should read the legal texts - not in force in EU
+- 1107 security issues found
+- Password are unique or strong?
+  - No (Admin 12345)
+
+RED part 2
+- All sensors that may affect user's privacy are documented? - OK
+  - Clips are saved
+- User notified - letting know that info is saved - No
+- 3rd party information
+  - Gathers a lot of info about you and child, names, health info
+- Bypasses GDPR
+  - Should read the legal texts - Not in force in EU
 - Deleting all info possible?
-  - All data can be deleted, but no info if info is really deletd from the cloud
-  - Wiped device still had users wifi information
+  - All data can be deleted, but no one knows if the data is really deletd from the cloud. 
+  - Was still able to find users information (E.g. wifi) from the device after wiping the information and restoring factory settings.
 
 - How do consumers devices communicate
-- Commnication to mostly WEstern countries
-- Most devices use Amazon AWS
-- Most of the data is encrypted though
-- TLS version 1.3 used only little amount 1.2
-- 90 % use TLS and CERT pining
-- 80 % implemeted on baremetal - (no OS) - automatic tools cannot hack
-- 66 & use wifi for communication
-- 90 % are online only temporarily - battery operated devices - only communicate with device when used
+  - Communication mostly to Western countries
+  - Most devices use Amazon AWS
+  - Most of the data is encrypted though
+  - Transport Layer Security (TLS) version 1.3 used only little amount 1.2
+  - 90 % use TLS and CERT pining
+  - 80 % implemeted on baremetal - (no OS) - automatic tools cannot hack
+  - 66 & use wifi for communication
+  - 90 % are online only temporarily - battery operated devices - only communicate with device when used
   - Hard to hack because not connected all the time but only for a few seconds time to time
-- 
+
 Common issues
 - Data is not delerted even if asked
 - Sharing info with 3rd parties
@@ -220,9 +228,3 @@ Attribution
 Quality of cryptography was a very good quality - A happy suprise
 
 Man in the middle attack does not work with common tools
-
-## 20:20 - Joona "Rinorragi" Immonen - My experiences on Defender External Attack Surface Management
-
-- About two things
-- Continueous discobery of digital attack surface
-- 
