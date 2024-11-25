@@ -8,7 +8,7 @@ Voluntary bonus: A third one.
 
 ## 18:15 - Jos Helmich - Industrial Cyber Security
 
-Sources: _https://www.enisa.europa.eu/, https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en, Chat GPT:"compare the leavel of cybersecurity acts  EU vs US", https://www.paloaltonetworks.com/cyberpedia/what-is-ot-security, CHAT GPT: "what is the difference in office cloud and industry cloud"_
+Sources: _https://www.enisa.europa.eu/, https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en, Chat GPT:"compare the leavel of cybersecurity acts  EU vs US", https://www.paloaltonetworks.com/cyberpedia/what-is-ot-security, CHAT GPT: "what is the difference in office cloud and industry cloud", https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence#ai-act-different-rules-for-different-risk-levels-0_
 
 Product security architect in KC cybersecuiry team
 Member in ENISA advisory group
@@ -90,31 +90,35 @@ CRA supply chain consequences
 
 Security Levels
 1. Accidental tourist (accidentally finds something from internet eg)
-2. Normal users ()
+2. Normal users 
 3. Hackers
 4. Nation state (against hostile nations, terrorists etc.)
 
 EU legislations for AI - New Legislative Network
-- Product saety requirements
+- Product safety requirements
 - Data requirements - GDPR
 - Cyber Resilience Act
-
 High risk for fundamental freedom
-- Unacceptable risk
-- High risk - your privacy
-- AI with specific transparency obligations
+- Unacceptable risk (some exceptions can be made E.g. law enforcement use)
+  - a threat to people (manipulous activity, eg. racism, dangerous behaviour to kids)
+  - Social scoring
+  - Biometrical identification and categorization of people
+  - Biometric identification systems (E.g. facial recognition)
+- High risk - your privacy (Systems need to be assessed throughout their life-cycle)
+  - AI systems that do not fill EU's product safety legislation
+  - AI systems that need to be registered in an EU database
+- AI with specific transparency obligations (E.g. Chat GPT)
+  - Non high-risk systems
+  - People must be aware which is AI generated (clear label needed)
+  - Building the system to prevent from illegal content
 
 Standards
 - ISO/IEC 42001:2023
 - ENISA - Multilayer network for good cs practices for AI
 - ETSI - Secure Artificial Intelligence Technical committee
-- NIST -
+- NIST - NAtional Institute of Standards and Technology
 
-I think there protect companies from legal consequences
-
-- Incidents in NIS-2 need to be reported to national authorities
-- Notifcations go to ENISA
-- 
+- Standards protect companies from legal consequences
 
 ## 19:20 - Heikki ”zokol” Juva - State of Union
 Bought 10.000 worth of electronic consumer things and measured how they apply the regulations
