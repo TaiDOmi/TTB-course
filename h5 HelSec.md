@@ -121,7 +121,7 @@ Standards
 - Standards protect companies from legal consequences
 
 ## 19:20 - Heikki ”zokol” Juva - State of Union
-Sources: _https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en, https://kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/kyberkestavyyssaados-cyber-resilience-act-cra_
+Sources: _https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en, https://kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/kyberkestavyyssaados-cyber-resilience-act-cra, https://www.ssl.com/blogs/what-is-certificate-pinning/_
 
 Bought 10.000 worth of electronic consumer things and measured how they apply the regulations
 
@@ -210,21 +210,22 @@ RED part 2
   - Most devices use Amazon AWS
   - Most of the data is encrypted though
   - Transport Layer Security (TLS) version 1.3 used only little amount 1.2
-  - 90 % use TLS and CERT pining
+  - 90 % use TLS and CERT pinning
+    -  Certificate pinning is a security mechanism ensures that the client communicates with a trusted server.  
   - 80 % implemeted on baremetal - (no OS) - automatic tools cannot hack
   - 66 & use wifi for communication
   - 90 % are online only temporarily - battery operated devices - only communicate with device when used
   - Hard to hack because not connected all the time but only for a few seconds time to time
 
 Common issues
-- Data is not delerted even if asked
+- Data is not deleted even if asked / Or at least cannot be sure that it is deleted
 - Sharing info with 3rd parties
-- Complex manufactuing, even seller does not know how device works
+- Complex manufacturing process, even the seller does not know how their device works
 
 Attribution
 - Finding the actual manufacturer by dumbing firmware
 - googled the prefix and found the company
 
-Quality of cryptography was a very good quality - A happy suprise
+The quality of cryptography was a very good quality (A happy suprise!)
 
 Man in the middle attack does not work with common tools
