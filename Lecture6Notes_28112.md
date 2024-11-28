@@ -51,10 +51,44 @@ Office Cloud and Industrial cloud
 
 - toisessa ei ole automatisoitua testausvälinettä laitteiden tietoturvan testaukseen
   -  Pääasiassa manuaalista black box testausta 
-  -  Datan tuhoaminen ei ole mahdollista 
- 
-    
+  -  Datan tuhoaminen ei ole mahdollista
+  -  What kind of micro controllers and how to analyse them
+    - esp32 datasheet explains what the chip is doing
+    - one of the most used chips 
+     
 - Kolmannessa vertailtiin paria eri työkalua  
   - Skannaili portteja
   - mitä näkyy nettiin päin ja mikä on haavittuvaisuuksia sivuilla OWASP työkalu
+ 
+
+**Darknet**
+- TOR / I2P / Freenet / Hyphanet / Gnunet
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
