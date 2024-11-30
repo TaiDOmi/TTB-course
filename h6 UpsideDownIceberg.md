@@ -5,8 +5,22 @@
 Source: _Dingledine, Mathewson and Syverson 2004: Tor: The second-generation onion router. In USENIX security symposium (jufo level 2)_
 
 3 Design goals and assumptions
-- das
+Goals:
 
+- The main goal of Tor is to make attackers efforts useless by prevent attackers from connecting users to their communicational partners.
+- Easy and cheap to use - Must not require too much bandwith so that volunteers are found to run the network.
+- Must not make operators liable to illegal user actions
+- Good usability is not only for a convenience -> More users and better anonymity
+  - Easy to implement on all common platforms
+- Flexible and well defined protocol to be suitable as a platform for future development (no need to reinvent a wheel again)
+- Design protocol and security parameters need to be well understood to provide secure and stable system.
+
+Deferred goals (solved aleready elsewhere or no known solution yet):
+
+- No peer-to-peer (high risk for attackers)
+- No full protection aainst E2E attacks
+- Tor does not automatically adjust protocols (E.g. HTTP) to hide users but users can use provoxy-tool to remove identity revealing information.
+- Tor does not try to hide that someone is using the network
 
 
 **Tor: The Second-Generation Onion Router**
@@ -30,4 +44,4 @@ Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
   - Then records all keystrokes by user (credentials)
   - keystrokes are stored in TEMP file and then send to hacker
   - logs are removed after they have been sent by HTTP POST
-  - Consequences: SEvere losses or leagal issues for the company
+  - Consequences: Severe losses or leagal issues for the company
