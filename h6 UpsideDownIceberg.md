@@ -93,8 +93,23 @@ Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
       -![image](https://github.com/user-attachments/assets/ee29481c-df09-4a4f-8399-1467d9129348)
       - ![image](https://github.com/user-attachments/assets/bda70418-d9f6-4447-a3a6-8cd51af60424)
 ## c) Onion. In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.)
+Sources: _https://tb-manual.torproject.org/about/, https://support.torproject.org/about/key-management/_
+
+- Tor network protects your identity with a network of virtual tunnels using three random servers to send your traffic. Thus there is three servers between you and the traffic to public network.
+- Tor uses TLS (Transport LaAyer Security) link encryption
+- The client establishes a short lived encryption key for every Tor relay
+- The public key is renewed every four weeks
+  - Each node in Tor network has a key pair. The public key (onion key) of each nodeis used to encrypt the data. -> Your data is encrypted multiple times before it's sent to the network. 
+- TOR uses strong algorythms like AES (Advanced Encryption Standard)
+- Onion process (Each node in chain peels off a layer of the onion):
+    1. Data is encrypted for the last (exit) node.
+    2. After that the data is encrypted to the middle node.
+    3. Data is encrypted to the first node
+  - None of the dingle nodes knows the whole route.
 
 ## d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
+
+
 
 ## e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
 
