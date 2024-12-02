@@ -45,3 +45,27 @@ Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
   - keystrokes are stored in TEMP file and then send to hacker
   - logs are removed after they have been sent by HTTP POST
   - Consequences: Severe losses or leagal issues for the company
+ 
+## a) Install TOR browser and access TOR network (.onion addresses). (Explain in detail how you installed it, and how you got access to TOR).
+
+## b) Browse TOR network.
+- Find, take screenshots and comment
+  - search engine for onion sites
+  - human rights or civil rights organization
+  - marketplace
+  - fraud
+  - forum
+  - a well known organization (with regular postal addresses, offices or similar presence outside darknet)
+- Use .onion addresses inside TOR network, not regular (clearnet) websites trough exit nodes.
+
+## c) Onion. In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.)
+
+## d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
+
+## e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
+
+
+
+
+
+
