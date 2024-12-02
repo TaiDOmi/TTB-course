@@ -57,8 +57,10 @@ Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
 - Clicked 'Download for Linux'.
 - The package was downloaded to /home/tomik/Downloads
 - ![image](https://github.com/user-attachments/assets/113790b9-bed8-4af3-8b83-83927fed5cc7)
-- Double clicked the package
-- 
+- Extracted the package to /tmp
+- Launched the TOR browser
+- ![image](https://github.com/user-attachments/assets/5127161e-2c7f-4599-8ef9-0fcb991468d7)
+- ![image](https://github.com/user-attachments/assets/8b7fccc6-8ca5-48af-a0db-758dece0cb3a)
 
 ## b) Browse TOR network.
 - Find, take screenshots and comment
