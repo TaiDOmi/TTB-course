@@ -64,9 +64,18 @@ Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
 
 ## b) Browse TOR network.
 - Find, take screenshots and comment
-  - search engine for onion sites
+  - The default search engine DuckDuckGo does not search onion sites
+    - Search onion search engine for onion sites
+    - ![image](https://github.com/user-attachments/assets/d45bd52c-d111-41f5-983b-700efdd9aaeb)
+    - Selected Ahmia as it was the first option:
+    - ![image](https://github.com/user-attachments/assets/7dd961a0-49a9-4dc3-97b5-50f63f57ee13)
   - human rights or civil rights organization
+    - Searched for 'human rights organization'
+    - ![image](https://github.com/user-attachments/assets/8b8ee516-47fe-4fa3-a827-e623eded2dc9)
+    - Found information how to keep corporate data safe from covernment monitoring
+      - Like Keep your device well hidden, Install a privacy focused OS like Tails or Qubes
   - marketplace
+    - 
   - fraud
   - forum
   - a well known organization (with regular postal addresses, offices or similar presence outside darknet)
