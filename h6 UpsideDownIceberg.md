@@ -48,6 +48,18 @@ Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
  
 ## a) Install TOR browser and access TOR network (.onion addresses). (Explain in detail how you installed it, and how you got access to TOR).
 
+- $ 'sudo apt-get update' / update packages
+- Tried to install via Terminal
+  - $ 'sudo apt-get -y install tor torbrowser-launcher'
+  - ![image](https://github.com/user-attachments/assets/3fc85f18-7473-4b9e-9504-b346a42eab8f)
+  - Seems that the package is not currently available. 
+- Download package from (https://www.torproject.org/download/)
+- Clicked 'Download for Linux'.
+- The package was downloaded to /home/tomik/Downloads
+- ![image](https://github.com/user-attachments/assets/113790b9-bed8-4af3-8b83-83927fed5cc7)
+- Double clicked the package
+- 
+
 ## b) Browse TOR network.
 - Find, take screenshots and comment
   - search engine for onion sites
