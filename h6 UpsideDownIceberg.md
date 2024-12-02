@@ -75,12 +75,23 @@ Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
     - Found information how to keep corporate data safe from covernment monitoring
       - Like Keep your device well hidden, Install a privacy focused OS like Tails or Qubes
   - marketplace
-    - 
+    - Searched for Onion marketplace in Ahmia:
+      -  Took the first link (venus marketplace)
+      -  ![image](https://github.com/user-attachments/assets/070dcdb2-44e3-4641-8b80-d6ca00d79b4e)
   - fraud
+    - Darknet marketplaces are full of frauds
+    -  I searched in Ahmia: "How to order a fake bank statement"
+    -  Took the first option
+    -  ![image](https://github.com/user-attachments/assets/353eef20-740b-49bb-b221-0bb5878c378f)
   - forum
+    - Searched "Darknet forum" in Ahmia and took the third search result "Forums".
+    - ![image](https://github.com/user-attachments/assets/ab7c9524-37e1-4e18-b6c7-c95292f298d6)
+    - ![image](https://github.com/user-attachments/assets/bab0ccc5-9ce8-4ad8-8b52-bfbb9fec49bd)
   - a well known organization (with regular postal addresses, offices or similar presence outside darknet)
-- Use .onion addresses inside TOR network, not regular (clearnet) websites trough exit nodes.
-
+      - Searched "Amnesty international" and took the first link as these sites might be the ones in dictature states monitored and onoin sites are needed to provide information also in those countries.
+      - There was a link to Amnesty's website
+      -![image](https://github.com/user-attachments/assets/ee29481c-df09-4a4f-8399-1467d9129348)
+      - ![image](https://github.com/user-attachments/assets/bda70418-d9f6-4447-a3a6-8cd51af60424)
 ## c) Onion. In your own words, how does anonymity work in TOR? (e.g. how does it use: public keys, encryption, what algorithms? This subtask does not require tests with a computer.)
 
 ## d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
