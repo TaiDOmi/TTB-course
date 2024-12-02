@@ -109,7 +109,11 @@ Sources: _https://tb-manual.torproject.org/about/, https://support.torproject.or
 
 ## d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
 
+Source: _[https://ieeexplore.ieee.org/abstract/document/9089497](https://www.researchgate.net/figure/The-Tor-website-fingerprinting-threat-model_fig1_329743510)_
 
+- Website fingerprinting attacks can reveal pages users are visiting
+  - Attackers  can guess the websites by analysing the patterns in data packets that have been sent and received.
+  - They can use smart tools like neural networks (AI) to spot the patterns. 
 
 ## e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
 
