@@ -59,8 +59,12 @@ Source: _Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation atta
     3. OP  creates an circuit to alter encryption keys with nodes
     - Fixed length cells of 512 bytes are used for communication.
     - Relay header and payload are encrypted with 128-bit counter mode - Advanced Encryption Standard (AES)
-  - B. Circuit Establishment for Tor Onion Services
-    -  
+  - B. Circuit Establishment for Tor HS (Onion Services)
+    1. HS chooses multiple introduction points from available nodes and builds the connection to those nodes.
+    2. Connects to Directory servers (DS) and uses a service descriptor (public key, expiration time, and selected introductory points)
+    3.  HS owner provides service's onion adress via website or blog etc. links.
+    4.  Onion proxy gets HS introduction points and the public key from the DS.
+    5.  
 - Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
   - Main attack categories of Tor network
     - Network disruption attacks
