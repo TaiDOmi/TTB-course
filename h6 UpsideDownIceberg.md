@@ -27,9 +27,29 @@ Deferred goals (solved aleready elsewhere or no known solution yet):
 Source: _Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation attacks on tor: A survey. In IEEE Communications Surveys & Tutorials (jufo level 2)_
 
 - Abstract
+  - Anonymity networks are increasing their popularity
+  - Tor is the most used browser to use anonymity networks
+  - Anonymity can be misused (illegal site of selling illegal goods and services or sharing censored content)
+  - As a result goverments and law enforcements are interested to find ways to de-anonymise users
 - I Introduction
+  - Privacy protection is needed for E.g.
+    - people in totalitary countries .
+    - military to keep operations safe
+    - businesses to keep development and research safe
+  - Onion Router project = Tor
+    - Solved the low latency and availability problems of earlier anonymity networks.
+    - Tool also for all kinds of criminal activity
+  - The investigation concentrates on de-anonymization attacks from past surveys
+    - 30 de-anonymization attacks discussed
+    - Advances in security have made many previous attacks useless.
 - II Background (to the end of "B. Circuit Establishent for Tor HS")
+  - 
 - Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
+  - Main attack categories of Tor network
+    - Network disruption attacks
+    - De-anonymization attacks
+    - Censorship Attacks
+    - Generic Attacks
 
 **PhishSticks - The Ethical Hackers tool for BadUSB**
 Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
