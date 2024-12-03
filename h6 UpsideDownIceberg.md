@@ -43,7 +43,24 @@ Source: _Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation atta
     - 30 de-anonymization attacks discussed
     - Advances in security have made many previous attacks useless.
 - II Background (to the end of "B. Circuit Establishent for Tor HS")
-  - 
+  - Tor is an overlay network based on TCP (three voluntary relays)
+    - Onion proxy (Tor client): Installed to user's computer (establishes a connection to Tor network and handles connections)
+    - Directory Servers: Small amount of trusted servers to keep details about the status of Tor network and select three relays.
+    - Entry Node: The first node and the one that client connects directly
+      - Many attacks to de-anonymise the user
+    - Exit Node: Knows the IP of the destination server
+    - Hidden / Onion Services: Hides the accessed website.
+    - Introduction Points: Random nodes selected by onion services  (several selected to defend from DoS attacks) to register its services with Tor network.
+    - Rendezvous Points: Random node that client connects at start
+    - Bridges: Tor relays that are not listed publicly (to avoid shutting down services)
+  - A. Standard Tor Circuit Establishment
+    1. The installed onion proxy (OP) connects directory servers to get an active list of servers
+    2. OP selects 3 relays  (entry, middle and exit nodes)
+    3. OP  creates an circuit to alter encryption keys with nodes
+    - Fixed length cells of 512 bytes are used for communication.
+    - Relay header and payload are encrypted with 128-bit counter mode - Advanced Encryption Standard (AES)
+  - B. Circuit Establishment for Tor Onion Services
+    -  
 - Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
   - Main attack categories of Tor network
     - Network disruption attacks
