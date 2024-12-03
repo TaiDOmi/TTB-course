@@ -74,6 +74,16 @@ Source: _Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation atta
     - De-anonymization attacks
     - Censorship Attacks
     - Generic Attacks
+  - De-anonymization attacks is analyzed further
+    -Attacks are divided to
+      - Side Channel
+      - Entry and Exit routers
+      - OP/OR/Server
+      - Hybrid
+      - It seems that there are more passive than active attacks.
+        - Passive: Monitoring for patterns to find out the source of traffic
+        - Active: Manipulating the network to gather information.
+      - Most of the attacks have been done to side channel
 
 **PhishSticks - The Ethical Hackers tool for BadUSB**
 Source: _https://www.youtube.com/watch?v=bDzVevtZiWE_
