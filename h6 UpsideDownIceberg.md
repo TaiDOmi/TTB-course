@@ -109,13 +109,35 @@ Sources: _https://tb-manual.torproject.org/about/, https://support.torproject.or
 
 ## d) What kind of the threat models could TOR fit? (This subtask does not require tests with a computer.)
 
-Source: _[https://ieeexplore.ieee.org/abstract/document/9089497](https://www.researchgate.net/figure/The-Tor-website-fingerprinting-threat-model_fig1_329743510)_
+Sources: _[https://ieeexplore.ieee.org/abstract/document/9089497](https://www.researchgate.net/figure/The-Tor-website-fingerprinting-threat-model_fig1_329743510), https://security.stackexchange.com/questions/203361/can-javascript-break-anonimity-provided-by-tor, https://thehackernews.com/2018/09/tor-browser-zero-day-exploit.html, https://thehackernews.com/2017/11/tor-browser-real-ip.html_
 
 - Website fingerprinting attacks can reveal pages users are visiting
   - Attackers  can guess the websites by analysing the patterns in data packets that have been sent and received.
-  - They can use smart tools like neural networks (AI) to spot the patterns. 
+  - They can use smart tools like neural networks (AI) to spot the patterns.
+- Javascript could be used to run code on users computer or to reveal the location
+  - Javascipt can also be deactivated in setting but then many websites stop working
+- Not updating Tor browser could be dangerous (Zero-day exploits)
+  - E.g. Bypassing NoSCript selection, Reveal users real IP address by running JavaScript on users TOR browser
 
 ## e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
+
+Sources: _https://www.youtube.com/watch?v=bDzVevtZiWE, https://github.com/therealhalonen/PhishSticks, https://www.teramind.co/blog/usb-blocking/_
+
+- A hacker could leave an USB stick to a workers table which then plugs it in the machine
+  - AutoRun runs a malicious code which
+    - E.g. records all the keystrokes and sends them to the hacker
+    - Move other sensitive information ot the attacker
+  - Also USB-device can be infected with malware that can cause different kind of problems E.g. Operational disruptions. 
+- Any company with employees with poor information security awareness and without good information security policy is vulnerable to attacks.
+  - People can also intentionally disregard secure ways of working. 
+- To protect from the attacks
+  - Block USB ports from untrusted devices.
+  - Train employees to be aware of secure ways of working.
+  - 
+
+
+
+
 
 
 
