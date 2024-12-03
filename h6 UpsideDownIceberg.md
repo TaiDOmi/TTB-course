@@ -121,7 +121,7 @@ Sources: _[https://ieeexplore.ieee.org/abstract/document/9089497](https://www.re
 
 ## e) Don't stick that stick. How does PhishSticks attack work? Would a typical organization be vulnerable? Does this link to a broader category of attacks and defenses? How could the risk be mitigated? (This subtask does not require tests with a computer.) (If you want, you can view PhishSticks on Github and PhishSticks Youtube channel.
 
-Sources: _https://www.youtube.com/watch?v=bDzVevtZiWE, https://github.com/therealhalonen/PhishSticks, https://www.teramind.co/blog/usb-blocking/_
+Sources: _https://www.youtube.com/watch?v=bDzVevtZiWE, https://github.com/therealhalonen/PhishSticks, https://www.teramind.co/blog/usb-blocking/, https://attack.mitre.org/matrices/enterprise/_
 
 - A hacker could leave an USB stick to a workers table which then plugs it in the machine
   - AutoRun runs a malicious code which
@@ -129,11 +129,15 @@ Sources: _https://www.youtube.com/watch?v=bDzVevtZiWE, https://github.com/therea
     - Move other sensitive information ot the attacker
   - Also USB-device can be infected with malware that can cause different kind of problems E.g. Operational disruptions. 
 - Any company with employees with poor information security awareness and without good information security policy is vulnerable to attacks.
-  - People can also intentionally disregard secure ways of working. 
-- To protect from the attacks
-  - Block USB ports from untrusted devices.
+  - People can also intentionally disregard secure ways of working.
+- Phishstick attacks could be under Initial Access category and Phishing and content injection techniques (Mitre Enterprise Matrix).
+- To protect from the attacks and mitigate the risk
+  - Implement policies for USB blocking
+    - Choose the right methods for the company needs.
+    - Limit the USB port access
+      - E.g. Block all USB devices or block USB ports from untrusted devices.
+      - Admit only secure USB devices 
   - Train employees to be aware of secure ways of working.
-  - 
 
 
 
