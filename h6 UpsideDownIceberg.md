@@ -18,7 +18,7 @@ Goals:
 Deferred goals (solved aleready elsewhere or no known solution yet):
 
 - No peer-to-peer (high risk for attackers)
-- No full protection aainst E2E attacks
+- No full protection against E2E attacks
 - Tor does not automatically adjust protocols (E.g. HTTP) to hide users but users can use provoxy-tool to remove identity revealing information.
 - Tor does not try to hide that someone is using the network
 
