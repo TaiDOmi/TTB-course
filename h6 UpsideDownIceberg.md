@@ -62,9 +62,12 @@ Source: _Karunanayake, Ahmed, Malaney, Islam and Jha 2021: De-anonymisation atta
   - B. Circuit Establishment for Tor HS (Onion Services)
     1. HS chooses multiple introduction points from available nodes and builds the connection to those nodes.
     2. Connects to Directory servers (DS) and uses a service descriptor (public key, expiration time, and selected introductory points)
-    3.  HS owner provides service's onion adress via website or blog etc. links.
-    4.  Onion proxy gets HS introduction points and the public key from the DS.
-    5.  
+    3. HS owner provides service's onion adress via website or blog etc. links.
+    4. Onion proxy gets HS introduction points and the public key from the DS.
+    5. OP selects a Rendezvous Point (RP) and establishes a Tor circuit with it.
+    6. With RP' address OP sends a Rendezvous cookie to a random introductory point which forwards the message (encrypted with HS public key) to the HS.
+    7. The HS selects three Tor nodes (a three hop connection to the RP). HS's identity is kept anonymous from RP.
+    8. Now the client can communicate with the formed circuit like a normal web service.
 - Fig. 6. Taxonomy for Tor attacks (Just the figure on page 2330.)
   - Main attack categories of Tor network
     - Network disruption attacks
