@@ -13,38 +13,33 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
 ![image](https://github.com/user-attachments/assets/c6443280-b4c0-4435-b28f-cd39a4ec49fe)
 
 
-## The Ethics of AI in Games
+## A Systematic Literature Review on Cyber Security Education for Children
 
 ### Abstract
-- Videogames are a common source of entertainment.  
-  - Important to understand their influence on human behavior.
-  - Ethical concerns are not well understood / investigated
-- The review concentrates on Ethical challenges that AI has in video game development.
+- The research focuses on improving cybersecurity education for children
+- Target: To offer practical guidance for educators and policymakers
+- Goal: To create respomsible and tech-savvy individuals, who will pass the infomation forward to the next generation.
 
 ### Introduction
-- Challenges in video games ethics
-  - Dark patterns in design nad creed monetization strategies (E.g. sunken cost fallacy, creating fomo)
-  - Lack of transparency (black-box design of video games)
-  - Toxic and violent content handling
-- Focus is in AI tools and methods in video game development.
-- Affective game loop
-  - Connects player's emotional responses with AI-driven game adaptations
-    - Eliciting Emotions (elements that provoke emotions in players)
-    - Detecting Emotions (AI recognises and analyses emotional states)
-    - Reacting to Emotions (Adapting game content based on the detected emotions)
-  - Ethical concerns at each stage:
-    - Elicitation (Manipulative patterns to reduce players' emotional control)
-    - Sensing (Concerns of privacy and misuse of emotional data)
-    - Detection (Transparency challenges how AI systems interprete emotions)
-    - Adaptation (Concerns of data ownership in personalized AI game design)
+- 
    
-### Related work
-- Ethics in AI
-  - Key virtues framework (Bostrom and Yudkowsky) : Responsibility, Transparency, Auditability, Incorruptibility, Predictability
-  - AI should be 
+### Methodology
 
-- AI Ethics in Game Research
-  - 
+### Results
+
+### Conclusion
+
+- Six areas to be included in education
+  - Technical skills (Understandint tools and devices)
+  - Procedural knowledge (Safe online practices)
+  - Data protection (Securing personal and sensitive information)
+  - Online identity (How to manage online profiles in responsible way)
+  - Socio-Cultural awareness (Social and cultural aspects)
+  - Consumer awareness (Online purchases and scams)
+    
+ - Teachers are the most important educators in cybersecurity
+ - Parents and government support needed
+ - 
 
 a) Voluntary: Create an alert that sends you new peer reviewed articles on your area of intrest. Once it's working, remember to make the filter tighter, so that you're happy when you recieve a message.
 
