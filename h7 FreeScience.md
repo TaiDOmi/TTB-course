@@ -25,24 +25,21 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
 - Current laws and regulations are not effective dealing with online risks for children
    - Disturbing material (E.g. violence, adult content, harrashment)
    - Need to have strategies to deal with these risks.
-- Existing research is scattered and does not provide practical guidance or suggestions for cyber securit education for children.
+- Existing research is scattered and does not provide practical guidance or suggestions for cyber security education for children.
 - The study reviews cybersecurity education research (2015-2021) for children under 18
-- Main research themes in the literature:
-   - What to teach? (cyber security content)
-   - How to teach? (improve teaching)
-   - Who should teach? (responsibility)
-- Six categories were suggested by research analysis
-   - Technological skills
-   - Procedural knowledge
-   - Data protection
-   - Online identity management
-   - Socio-cultural awareness
-   - Consumer safety
-- The role of schools  
 
-### Results
-
-### Conclusion
+### Results 
+- What to teach? (cyber security content for children)
+   - Bottom-Up Approaches: Workshops and surveys to identify self-perceived knowledge caps (Children's perspective).
+      - The education needs to combine real-world concerns with children's view
+      - Practical skills: Password behavior, online behavior, scams and virus prevention
+      - Ethical online practices and safety: Bullying, Risks of sharing inappropriate content, proactive measures against online threats
+   - Top-Down Approaches: Expert opinions or government recommendations define what children need to learn.
+- How to teach? (improve teaching methods)
+   - gamification and apps or traditional education
+- Who should teach? (responsibilities)
+   - Wide agreement that main responsibility should be on teachers supported by parents and government.
+    
 
 - Six areas to be included in education
   - Technical skills (Understandint tools and devices)
