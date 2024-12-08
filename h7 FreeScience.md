@@ -15,15 +15,30 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
 
 ## A Systematic Literature Review on Cyber Security Education for Children
 
-### Abstract
 - The research focuses on improving cybersecurity education for children
-- Target: To offer practical guidance for educators and policymakers
+   - Children are vulnerable to online risks
+   - 
+- Target:
+   - To offer practical guidance for educators and policymakers for teaching cybersecurity skills to children worldwide
 - Goal: To create respomsible and tech-savvy individuals, who will pass the infomation forward to the next generation.
 
-### Introduction
-- 
-   
-### Methodology
+- Current laws and regulations are not effective dealing with online risks for children
+   - Disturbing material (E.g. violence, adult content, harrashment)
+   - Need to have strategies to deal with these risks.
+- Existing research is scattered and does not provide practical guidance or suggestions for cyber securit education for children.
+- The study reviews cybersecurity education research (2015-2021) for children under 18
+- Main research themes in the literature:
+   - What to teach? (cyber security content)
+   - How to teach? (improve teaching)
+   - Who should teach? (responsibility)
+- Six categories were suggested by research analysis
+   - Technological skills
+   - Procedural knowledge
+   - Data protection
+   - Online identity management
+   - Socio-cultural awareness
+   - Consumer safety
+- The role of schools  
 
 ### Results
 
@@ -37,12 +52,17 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
   - Socio-Cultural awareness (Social and cultural aspects)
   - Consumer awareness (Online purchases and scams)
     
- - Teachers are the most important educators in cybersecurity
+ - Teachers are the most important educators in cybersecurity (Role of school important)
  - Parents and government support needed
- - 
 
 a) Voluntary: Create an alert that sends you new peer reviewed articles on your area of intrest. Once it's working, remember to make the filter tighter, so that you're happy when you recieve a message.
 
 ![image](https://github.com/user-attachments/assets/1712a881-c6b9-4cbd-8f01-1dec168981e1)
+
+Alert in email: 
+![image](https://github.com/user-attachments/assets/64ba0306-935e-4f69-9360-18ccbe1298af)
+
+Cancelled the previous alerts fileter (All results)
+![image](https://github.com/user-attachments/assets/83e242e5-058a-47c7-90e7-a36fd92e4fb1)
 
 
