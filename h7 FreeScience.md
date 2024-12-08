@@ -17,7 +17,6 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
 
 - The research focuses on improving cybersecurity education for children
    - Children are vulnerable to online risks
-   - 
 - Target:
    - To offer practical guidance for educators and policymakers for teaching cybersecurity skills to children worldwide
 - Goal: To create respomsible and tech-savvy individuals, who will pass the infomation forward to the next generation.
@@ -35,6 +34,12 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
       - Practical skills: Password behavior, online behavior, scams and virus prevention
       - Ethical online practices and safety: Bullying, Risks of sharing inappropriate content, proactive measures against online threats
    - Top-Down Approaches: Expert opinions or government recommendations define what children need to learn.
+      - Understanding media (E.g. Image and author's rights, how to separate private and public life)
+      - Cyber security principles (Use engaging formats (E.g. cartoons) to communicate safe online behavior).
+      - Digital footprint awareness (Risks of sharing personal data, responsibility for maintaining online privacy)
+      - Practical Privacy Skills (E.g. Interactive eBooks for younger students)
+      - More advanced technical training for high school students (E.g. CS attacks, CS tools)
+   - Combine Bottom-Up and Top-Down insights to form a practical curriculum 
 - How to teach? (improve teaching methods)
    - gamification and apps or traditional education
 - Who should teach? (responsibilities)
@@ -42,7 +47,7 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
     
 
 - Six areas to be included in education
-  - Technical skills (Understandint tools and devices)
+  - Technical skills (Understanding tools and devices)
   - Procedural knowledge (Safe online practices)
   - Data protection (Securing personal and sensitive information)
   - Online identity (How to manage online profiles in responsible way)
