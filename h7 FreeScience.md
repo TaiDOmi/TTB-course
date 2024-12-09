@@ -27,6 +27,14 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
 - Existing research is scattered and does not provide practical guidance or suggestions for cyber security education for children.
 - The study reviews cybersecurity education research (2015-2021) for children under 18
 
+- Six areas to be included in education based on earlier studies.
+  - Technical skills (Understanding tools and devices)
+  - Procedural knowledge (Safe online practices)
+  - Data protection (Securing personal and sensitive information)
+  - Online identity (How to manage online profiles in responsible way)
+  - Socio-Cultural awareness (Social and cultural aspects)
+  - Consumer awareness (Online purchases and scams)
+
 ### Results 
 - **What to teach?** (cyber security content for children)
    - Bottom-Up Approaches: Workshops and surveys to identify self-perceived knowledge caps (Children's perspective).
