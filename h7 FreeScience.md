@@ -56,20 +56,23 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
       - Traditional teaching methods
       - Pros. Accessible, encourages to collaboration
       - Cons. Not interactive and may not be that appealing to children.
+   - Best methods
+      - Combine interactive tool based teaching methods and classroom based discussions
+      - Match the content based on student's age, maturity and technological skills
+      - Encourage hands-on learning to build relations of theory and practice. 
+      - Update content of teaching regularly to stay up to date.
 - **Who should teach?** (responsibilities)
    - Wide agreement that main responsibility should be on teachers supported by parents and government.
+   - Teachers: Theoretical and practical education
+   - Parents: Support CS education at home but need often education themselves also.
+   - Government: Policies, funding, spreading awareness
+   - Challenge for teachers:
+      - Teachers lack of knowledge in teaching CS, limited support from governemnt, rapid technological changes
+   - Proposed solutions
+      - Training for teachers, easy to follow plans, include parents in educational process, government to provide funding, resources and teaching plan. 
     
-
-- Six areas to be included in education
-  - Technical skills (Understanding tools and devices)
-  - Procedural knowledge (Safe online practices)
-  - Data protection (Securing personal and sensitive information)
-  - Online identity (How to manage online profiles in responsible way)
-  - Socio-Cultural awareness (Social and cultural aspects)
-  - Consumer awareness (Online purchases and scams)
-    
- - Teachers are the most important educators in cybersecurity (Role of school important)
- - Parents and government support needed
+**Conclusion**
+- Schools, parents and governements collaboration is important in teaching CS effectively for children. Teachers need to have tailored training and resources for teaching CS, while parents and governments need to contribute and support the education. 
 
 a) Voluntary: Create an alert that sends you new peer reviewed articles on your area of intrest. Once it's working, remember to make the filter tighter, so that you're happy when you recieve a message.
 
