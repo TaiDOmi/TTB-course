@@ -28,7 +28,7 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
 - The study reviews cybersecurity education research (2015-2021) for children under 18
 
 ### Results 
-- What to teach? (cyber security content for children)
+- **What to teach?** (cyber security content for children)
    - Bottom-Up Approaches: Workshops and surveys to identify self-perceived knowledge caps (Children's perspective).
       - The education needs to combine real-world concerns with children's view
       - Practical skills: Password behavior, online behavior, scams and virus prevention
@@ -40,9 +40,23 @@ Source: _Sağlam, R. B., Miller, V., & Franqueira, V. N. (2023). A systematic li
       - Practical Privacy Skills (E.g. Interactive eBooks for younger students)
       - More advanced technical training for high school students (E.g. CS attacks, CS tools)
    - Combine Bottom-Up and Top-Down insights to form a practical curriculum 
-- How to teach? (improve teaching methods)
-   - gamification and apps or traditional education
-- Who should teach? (responsibilities)
+- **How to teach?** (improve teaching methods)
+   - Engaging methods needed for children.
+   - Gamification and apps or traditional education?
+   - Computer based
+      - Virtual environments
+      - Massive Open Online Courses
+      - Game-Based Learning
+      - Digital Storytelling
+      - Pros. Practical, fun and real world based hands-on training
+      - Cons. Needs resources, infrastructure and technical knowledge
+   - Clasroom based education
+      - Interactive role playing scenarios
+      - Groupwork projects and workshops
+      - Traditional teaching methods
+      - Pros. Accessible, encourages to collaboration
+      - Cons. Not interactive and may not be that appealing to children.
+- **Who should teach?** (responsibilities)
    - Wide agreement that main responsibility should be on teachers supported by parents and government.
     
 
